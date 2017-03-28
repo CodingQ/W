@@ -1,0 +1,21 @@
+PODS:
+  - Masonry (1.0.1)
+  - MJRefresh (3.1.12)
+  - SVProgressHUD (2.0.3)
+  - UICountingLabel (1.4.0)
+
+DEPENDENCIES:
+  - Masonry (~> 1.0.1)
+  - MJRefresh (~> 3.1.12)
+  - SVProgressHUD (~> 2.0.3)
+  - UICountingLabel (~> 1.4.0)
+
+SPEC CHECKSUMS:
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+  UICountingLabel: ed5ce5b6d5ef278ff40d99cfa49577a30ab0c87b
+
+PODFILE CHECKSUM: 41aa3d1faf86d0fd5cdfe113e5e0a5310a021a11
+
+COCOAPODS: 1.0.1

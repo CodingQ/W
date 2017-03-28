@@ -8,24 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		9127E23C1E89FC1B00706D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E23B1E89FC1B00706D23 /* main.m */; };
-		9127E23F1E89FC1B00706D23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E23E1E89FC1B00706D23 /* AppDelegate.m */; };
-		9127E2421E89FC1B00706D23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2411E89FC1B00706D23 /* ViewController.m */; };
-		9127E2451E89FC1B00706D23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9127E2431E89FC1B00706D23 /* Main.storyboard */; };
 		9127E2471E89FC1B00706D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9127E2461E89FC1B00706D23 /* Assets.xcassets */; };
-		9127E24A1E89FC1B00706D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9127E2481E89FC1B00706D23 /* LaunchScreen.storyboard */; };
+		9127E2661E8A065200706D23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2641E8A065200706D23 /* AppDelegate.m */; };
+		9127E2691E8A0CF700706D23 /* WTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2681E8A0CF700706D23 /* WTabbarController.m */; };
+		9127E2701E8A0EBC00706D23 /* UIColor+WExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E26F1E8A0EBC00706D23 /* UIColor+WExtension.m */; };
+		9127E2761E8A118000706D23 /* WNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2751E8A118000706D23 /* WNavigationController.m */; };
+		9127E2781E8A13D500706D23 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9127E2771E8A13D500706D23 /* Launch Screen.storyboard */; };
+		9127E27B1E8A173100706D23 /* WRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E27A1E8A173100706D23 /* WRecordViewController.m */; };
+		E5D4C3BEC5A3FBFB4B83BE50 /* libPods-W.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F859A2507DCEBB891D21C142 /* libPods-W.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9127E2371E89FC1B00706D23 /* W.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9127E23B1E89FC1B00706D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9127E23D1E89FC1B00706D23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9127E23E1E89FC1B00706D23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9127E2401E89FC1B00706D23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9127E2411E89FC1B00706D23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9127E2441E89FC1B00706D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9127E2461E89FC1B00706D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9127E2491E89FC1B00706D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9127E24B1E89FC1B00706D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9127E2631E8A065200706D23 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9127E2641E8A065200706D23 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9127E2671E8A0CF700706D23 /* WTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTabbarController.h; sourceTree = "<group>"; };
+		9127E2681E8A0CF700706D23 /* WTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTabbarController.m; sourceTree = "<group>"; };
+		9127E26E1E8A0EBC00706D23 /* UIColor+WExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WExtension.h"; sourceTree = "<group>"; };
+		9127E26F1E8A0EBC00706D23 /* UIColor+WExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WExtension.m"; sourceTree = "<group>"; };
+		9127E2721E8A0F8500706D23 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		9127E2731E8A10AF00706D23 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9127E2741E8A118000706D23 /* WNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNavigationController.h; sourceTree = "<group>"; };
+		9127E2751E8A118000706D23 /* WNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNavigationController.m; sourceTree = "<group>"; };
+		9127E2771E8A13D500706D23 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9127E2791E8A173100706D23 /* WRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRecordViewController.h; sourceTree = "<group>"; };
+		9127E27A1E8A173100706D23 /* WRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRecordViewController.m; sourceTree = "<group>"; };
+		A15CFD733427EA5DD38171A4 /* Pods-W.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W.release.xcconfig"; path = "Pods/Target Support Files/Pods-W/Pods-W.release.xcconfig"; sourceTree = "<group>"; };
+		E45D223DB5AE50AED17DBEC7 /* Pods-W.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W.debug.xcconfig"; path = "Pods/Target Support Files/Pods-W/Pods-W.debug.xcconfig"; sourceTree = "<group>"; };
+		F859A2507DCEBB891D21C142 /* libPods-W.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-W.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +46,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D4C3BEC5A3FBFB4B83BE50 /* libPods-W.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		492A049388AA0C08720622E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E45D223DB5AE50AED17DBEC7 /* Pods-W.debug.xcconfig */,
+				A15CFD733427EA5DD38171A4 /* Pods-W.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9127E22E1E89FC1B00706D23 = {
 			isa = PBXGroup;
 			children = (
 				9127E2391E89FC1B00706D23 /* W */,
 				9127E2381E89FC1B00706D23 /* Products */,
+				492A049388AA0C08720622E4 /* Pods */,
+				E0F506E1ED9A316BC3592A9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +83,16 @@
 		9127E2391E89FC1B00706D23 /* W */ = {
 			isa = PBXGroup;
 			children = (
-				9127E23D1E89FC1B00706D23 /* AppDelegate.h */,
-				9127E23E1E89FC1B00706D23 /* AppDelegate.m */,
-				9127E2401E89FC1B00706D23 /* ViewController.h */,
-				9127E2411E89FC1B00706D23 /* ViewController.m */,
-				9127E2431E89FC1B00706D23 /* Main.storyboard */,
-				9127E2461E89FC1B00706D23 /* Assets.xcassets */,
-				9127E2481E89FC1B00706D23 /* LaunchScreen.storyboard */,
+				9127E2621E8A065200706D23 /* Base */,
+				9127E2651E8A065200706D23 /* Category */,
+				9127E2551E8A064500706D23 /* Tools */,
+				9127E2561E8A064500706D23 /* WAnalyse */,
+				9127E25A1E8A064500706D23 /* WMe */,
+				9127E25E1E8A064500706D23 /* WRecord */,
 				9127E24B1E89FC1B00706D23 /* Info.plist */,
+				9127E2771E8A13D500706D23 /* Launch Screen.storyboard */,
+				9127E2461E89FC1B00706D23 /* Assets.xcassets */,
+				9127E23B1E89FC1B00706D23 /* main.m */,
 				9127E23A1E89FC1B00706D23 /* Supporting Files */,
 			);
 			path = W;
@@ -74,9 +101,142 @@
 		9127E23A1E89FC1B00706D23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9127E23B1E89FC1B00706D23 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9127E2551E8A064500706D23 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				9127E2731E8A10AF00706D23 /* PrefixHeader.pch */,
+				9127E2721E8A0F8500706D23 /* Macros.h */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		9127E2561E8A064500706D23 /* WAnalyse */ = {
+			isa = PBXGroup;
+			children = (
+				9127E2571E8A064500706D23 /* Controller */,
+				9127E2581E8A064500706D23 /* Model */,
+				9127E2591E8A064500706D23 /* View */,
+			);
+			path = WAnalyse;
+			sourceTree = "<group>";
+		};
+		9127E2571E8A064500706D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9127E2581E8A064500706D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9127E2591E8A064500706D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9127E25A1E8A064500706D23 /* WMe */ = {
+			isa = PBXGroup;
+			children = (
+				9127E25B1E8A064500706D23 /* Controller */,
+				9127E25C1E8A064500706D23 /* Model */,
+				9127E25D1E8A064500706D23 /* View */,
+			);
+			path = WMe;
+			sourceTree = "<group>";
+		};
+		9127E25B1E8A064500706D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9127E25C1E8A064500706D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9127E25D1E8A064500706D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9127E25E1E8A064500706D23 /* WRecord */ = {
+			isa = PBXGroup;
+			children = (
+				9127E25F1E8A064500706D23 /* Controller */,
+				9127E2601E8A064500706D23 /* Model */,
+				9127E2611E8A064500706D23 /* View */,
+			);
+			path = WRecord;
+			sourceTree = "<group>";
+		};
+		9127E25F1E8A064500706D23 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9127E2791E8A173100706D23 /* WRecordViewController.h */,
+				9127E27A1E8A173100706D23 /* WRecordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9127E2601E8A064500706D23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9127E2611E8A064500706D23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9127E2621E8A065200706D23 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9127E2631E8A065200706D23 /* AppDelegate.h */,
+				9127E2641E8A065200706D23 /* AppDelegate.m */,
+				9127E2671E8A0CF700706D23 /* WTabbarController.h */,
+				9127E2681E8A0CF700706D23 /* WTabbarController.m */,
+				9127E2741E8A118000706D23 /* WNavigationController.h */,
+				9127E2751E8A118000706D23 /* WNavigationController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9127E2651E8A065200706D23 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9127E26E1E8A0EBC00706D23 /* UIColor+WExtension.h */,
+				9127E26F1E8A0EBC00706D23 /* UIColor+WExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E0F506E1ED9A316BC3592A9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F859A2507DCEBB891D21C142 /* libPods-W.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9127E24E1E89FC1B00706D23 /* Build configuration list for PBXNativeTarget "W" */;
 			buildPhases = (
+				85E95DBF2F55CD52BB6C77BD /* [CP] Check Pods Manifest.lock */,
 				9127E2331E89FC1B00706D23 /* Sources */,
 				9127E2341E89FC1B00706D23 /* Frameworks */,
 				9127E2351E89FC1B00706D23 /* Resources */,
+				02255E3516A90C915A212100 /* [CP] Embed Pods Frameworks */,
+				F361E891FECAFF4A67307F95 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +268,7 @@
 		9127E22F1E89FC1B00706D23 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = W;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = harry.qian;
 				TargetAttributes = {
@@ -138,45 +302,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9127E24A1E89FC1B00706D23 /* LaunchScreen.storyboard in Resources */,
+				9127E2781E8A13D500706D23 /* Launch Screen.storyboard in Resources */,
 				9127E2471E89FC1B00706D23 /* Assets.xcassets in Resources */,
-				9127E2451E89FC1B00706D23 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02255E3516A90C915A212100 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-W/Pods-W-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85E95DBF2F55CD52BB6C77BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F361E891FECAFF4A67307F95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-W/Pods-W-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9127E2331E89FC1B00706D23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9127E2421E89FC1B00706D23 /* ViewController.m in Sources */,
-				9127E23F1E89FC1B00706D23 /* AppDelegate.m in Sources */,
+				9127E2761E8A118000706D23 /* WNavigationController.m in Sources */,
+				9127E27B1E8A173100706D23 /* WRecordViewController.m in Sources */,
+				9127E2691E8A0CF700706D23 /* WTabbarController.m in Sources */,
+				9127E2661E8A065200706D23 /* AppDelegate.m in Sources */,
 				9127E23C1E89FC1B00706D23 /* main.m in Sources */,
+				9127E2701E8A0EBC00706D23 /* UIColor+WExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		9127E2431E89FC1B00706D23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9127E2441E89FC1B00706D23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9127E2481E89FC1B00706D23 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9127E2491E89FC1B00706D23 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9127E24C1E89FC1B00706D23 /* Debug */ = {
@@ -269,24 +464,30 @@
 		};
 		9127E24F1E89FC1B00706D23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E45D223DB5AE50AED17DBEC7 /* Pods-W.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZV87992WEQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/W/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = W/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wang.erisw.W;
+				PRODUCT_BUNDLE_IDENTIFIER = wang.erisw.WW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		9127E2501E89FC1B00706D23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A15CFD733427EA5DD38171A4 /* Pods-W.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZV87992WEQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/W/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = W/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wang.erisw.W;
+				PRODUCT_BUNDLE_IDENTIFIER = wang.erisw.WW;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -310,6 +511,7 @@
 				9127E2501E89FC1B00706D23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
