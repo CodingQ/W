@@ -8,6 +8,12 @@
 
 #ifndef Macros_h
 #define Macros_h
+#define kScreenW [UIScreen mainScreen].bounds.size.width
+#define kScreenH [UIScreen mainScreen].bounds.size.height
 
 
+
+#define Notice_Run @"Notice_Run"
+
+#define RUNUSERNOTIFICATION @"RUNUSERNOTIFICATION"
 #endif /* Macros_h */

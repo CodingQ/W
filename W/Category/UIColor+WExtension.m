@@ -11,7 +11,7 @@
 @implementation UIColor (WExtension)
 + (UIColor *)mainColor {
 //    return [UIColor colorWithRed:129 / 255.0 green:216 / 255.0 blue:206 / 255.0 alpha:1];
-    return [UIColor colorWithRed:176 / 255.0 green:224 / 255.0 blue:230 / 255.0 alpha:1];
+    return [UIColor colorWithRed:17 / 255.0 green:224 / 255.0 blue:250 / 255.0 alpha:1];
 }
 
 + (UIColor *)textColor {

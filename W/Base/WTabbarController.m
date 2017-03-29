@@ -29,15 +29,15 @@
 
 - (void)p_setTabBar {
     WRecordViewController *record = [[WRecordViewController alloc] init];
-    record.view.backgroundColor = [UIColor mainColor];
+
     [self addChildController:record normalImage:nil selectedImage:nil title:@"记录"];
     
     UIViewController *analazyVC = [[UIViewController alloc] init];
     [self addChildController:analazyVC normalImage:nil selectedImage:nil title:@"分析"];
-    analazyVC.view.backgroundColor = [UIColor mainColor];
+
     UIViewController *userVC = [[UIViewController alloc] init];
     [self addChildController:userVC normalImage:nil selectedImage:nil title:@"我"];
-    userVC.view.backgroundColor = [UIColor mainColor];
+
 }
 
 #pragma mark - TabBar Set Method

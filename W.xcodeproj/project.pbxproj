@@ -8,20 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		9127E23C1E89FC1B00706D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E23B1E89FC1B00706D23 /* main.m */; };
-		9127E2471E89FC1B00706D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9127E2461E89FC1B00706D23 /* Assets.xcassets */; };
 		9127E2661E8A065200706D23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2641E8A065200706D23 /* AppDelegate.m */; };
 		9127E2691E8A0CF700706D23 /* WTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2681E8A0CF700706D23 /* WTabbarController.m */; };
 		9127E2701E8A0EBC00706D23 /* UIColor+WExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E26F1E8A0EBC00706D23 /* UIColor+WExtension.m */; };
 		9127E2761E8A118000706D23 /* WNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2751E8A118000706D23 /* WNavigationController.m */; };
 		9127E2781E8A13D500706D23 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9127E2771E8A13D500706D23 /* Launch Screen.storyboard */; };
 		9127E27B1E8A173100706D23 /* WRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E27A1E8A173100706D23 /* WRecordViewController.m */; };
+		9127E27E1E8A33A400706D23 /* WRecordCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E27D1E8A33A400706D23 /* WRecordCategoryView.m */; };
+		9127E2811E8A39DA00706D23 /* WRecordCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2801E8A39DA00706D23 /* WRecordCircleView.m */; };
+		9127E2891E8A3DEE00706D23 /* WBaseChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2881E8A3DEE00706D23 /* WBaseChart.m */; };
+		9127E28C1E8A3F4200706D23 /* NSDate+WExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E28B1E8A3F4200706D23 /* NSDate+WExtension.m */; };
+		9127E28E1E8A41D400706D23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9127E28D1E8A41D400706D23 /* CoreLocation.framework */; };
+		9127E2901E8A41DC00706D23 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9127E28F1E8A41DC00706D23 /* MapKit.framework */; };
+		9127E2921E8A41EC00706D23 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9127E2911E8A41EC00706D23 /* HealthKit.framework */; };
+		9127E2961E8A426C00706D23 /* WUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2951E8A426C00706D23 /* WUserModel.m */; };
+		9127E2991E8A43A700706D23 /* WHealthDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2981E8A43A700706D23 /* WHealthDateManager.m */; };
+		9127E29C1E8A472300706D23 /* WChartFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E29B1E8A472300706D23 /* WChartFactory.m */; };
+		9127E2A21E8A480800706D23 /* WColumChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2A11E8A480800706D23 /* WColumChart.m */; };
+		9127E2A51E8A48AB00706D23 /* WLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2A41E8A48AB00706D23 /* WLineChart.m */; };
+		91A82CBA1E8A88D80039228D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A82CB91E8A88D80039228D /* Images.xcassets */; };
 		E5D4C3BEC5A3FBFB4B83BE50 /* libPods-W.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F859A2507DCEBB891D21C142 /* libPods-W.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9127E2371E89FC1B00706D23 /* W.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9127E23B1E89FC1B00706D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9127E2461E89FC1B00706D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9127E24B1E89FC1B00706D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9127E2631E8A065200706D23 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9127E2641E8A065200706D23 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -36,6 +47,29 @@
 		9127E2771E8A13D500706D23 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		9127E2791E8A173100706D23 /* WRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRecordViewController.h; sourceTree = "<group>"; };
 		9127E27A1E8A173100706D23 /* WRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRecordViewController.m; sourceTree = "<group>"; };
+		9127E27C1E8A33A400706D23 /* WRecordCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRecordCategoryView.h; sourceTree = "<group>"; };
+		9127E27D1E8A33A400706D23 /* WRecordCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRecordCategoryView.m; sourceTree = "<group>"; };
+		9127E27F1E8A39DA00706D23 /* WRecordCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRecordCircleView.h; sourceTree = "<group>"; };
+		9127E2801E8A39DA00706D23 /* WRecordCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRecordCircleView.m; sourceTree = "<group>"; };
+		9127E2871E8A3DEE00706D23 /* WBaseChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBaseChart.h; sourceTree = "<group>"; };
+		9127E2881E8A3DEE00706D23 /* WBaseChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBaseChart.m; sourceTree = "<group>"; };
+		9127E28A1E8A3F4200706D23 /* NSDate+WExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WExtension.h"; sourceTree = "<group>"; };
+		9127E28B1E8A3F4200706D23 /* NSDate+WExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WExtension.m"; sourceTree = "<group>"; };
+		9127E28D1E8A41D400706D23 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9127E28F1E8A41DC00706D23 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9127E2911E8A41EC00706D23 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		9127E2931E8A41F200706D23 /* W.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = W.entitlements; sourceTree = "<group>"; };
+		9127E2941E8A426C00706D23 /* WUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserModel.h; sourceTree = "<group>"; };
+		9127E2951E8A426C00706D23 /* WUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserModel.m; sourceTree = "<group>"; };
+		9127E2971E8A43A700706D23 /* WHealthDateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHealthDateManager.h; sourceTree = "<group>"; };
+		9127E2981E8A43A700706D23 /* WHealthDateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHealthDateManager.m; sourceTree = "<group>"; };
+		9127E29A1E8A472300706D23 /* WChartFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WChartFactory.h; sourceTree = "<group>"; };
+		9127E29B1E8A472300706D23 /* WChartFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WChartFactory.m; sourceTree = "<group>"; };
+		9127E2A01E8A480800706D23 /* WColumChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WColumChart.h; sourceTree = "<group>"; };
+		9127E2A11E8A480800706D23 /* WColumChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WColumChart.m; sourceTree = "<group>"; };
+		9127E2A31E8A48AB00706D23 /* WLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLineChart.h; sourceTree = "<group>"; };
+		9127E2A41E8A48AB00706D23 /* WLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLineChart.m; sourceTree = "<group>"; };
+		91A82CB91E8A88D80039228D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A15CFD733427EA5DD38171A4 /* Pods-W.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W.release.xcconfig"; path = "Pods/Target Support Files/Pods-W/Pods-W.release.xcconfig"; sourceTree = "<group>"; };
 		E45D223DB5AE50AED17DBEC7 /* Pods-W.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W.debug.xcconfig"; path = "Pods/Target Support Files/Pods-W/Pods-W.debug.xcconfig"; sourceTree = "<group>"; };
 		F859A2507DCEBB891D21C142 /* libPods-W.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-W.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,6 +80,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9127E2921E8A41EC00706D23 /* HealthKit.framework in Frameworks */,
+				9127E2901E8A41DC00706D23 /* MapKit.framework in Frameworks */,
+				9127E28E1E8A41D400706D23 /* CoreLocation.framework in Frameworks */,
 				E5D4C3BEC5A3FBFB4B83BE50 /* libPods-W.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,16 +120,17 @@
 		9127E2391E89FC1B00706D23 /* W */ = {
 			isa = PBXGroup;
 			children = (
-				9127E2621E8A065200706D23 /* Base */,
-				9127E2651E8A065200706D23 /* Category */,
-				9127E2551E8A064500706D23 /* Tools */,
+				9127E2931E8A41F200706D23 /* W.entitlements */,
 				9127E2561E8A064500706D23 /* WAnalyse */,
 				9127E25A1E8A064500706D23 /* WMe */,
 				9127E25E1E8A064500706D23 /* WRecord */,
+				9127E2621E8A065200706D23 /* Base */,
+				9127E2651E8A065200706D23 /* Category */,
+				9127E2551E8A064500706D23 /* Tools */,
 				9127E24B1E89FC1B00706D23 /* Info.plist */,
 				9127E2771E8A13D500706D23 /* Launch Screen.storyboard */,
-				9127E2461E89FC1B00706D23 /* Assets.xcassets */,
 				9127E23B1E89FC1B00706D23 /* main.m */,
+				91A82CB91E8A88D80039228D /* Images.xcassets */,
 				9127E23A1E89FC1B00706D23 /* Supporting Files */,
 			);
 			path = W;
@@ -108,6 +146,7 @@
 		9127E2551E8A064500706D23 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				9127E2861E8A3DEE00706D23 /* Charts */,
 				9127E2731E8A10AF00706D23 /* PrefixHeader.pch */,
 				9127E2721E8A0F8500706D23 /* Macros.h */,
 			);
@@ -165,6 +204,8 @@
 		9127E25C1E8A064500706D23 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9127E2941E8A426C00706D23 /* WUserModel.h */,
+				9127E2951E8A426C00706D23 /* WUserModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -198,6 +239,8 @@
 		9127E2601E8A064500706D23 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9127E2971E8A43A700706D23 /* WHealthDateManager.h */,
+				9127E2981E8A43A700706D23 /* WHealthDateManager.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -205,6 +248,10 @@
 		9127E2611E8A064500706D23 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9127E27C1E8A33A400706D23 /* WRecordCategoryView.h */,
+				9127E27F1E8A39DA00706D23 /* WRecordCircleView.h */,
+				9127E2801E8A39DA00706D23 /* WRecordCircleView.m */,
+				9127E27D1E8A33A400706D23 /* WRecordCategoryView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -227,13 +274,33 @@
 			children = (
 				9127E26E1E8A0EBC00706D23 /* UIColor+WExtension.h */,
 				9127E26F1E8A0EBC00706D23 /* UIColor+WExtension.m */,
+				9127E28A1E8A3F4200706D23 /* NSDate+WExtension.h */,
+				9127E28B1E8A3F4200706D23 /* NSDate+WExtension.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		9127E2861E8A3DEE00706D23 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				9127E2871E8A3DEE00706D23 /* WBaseChart.h */,
+				9127E2881E8A3DEE00706D23 /* WBaseChart.m */,
+				9127E29A1E8A472300706D23 /* WChartFactory.h */,
+				9127E29B1E8A472300706D23 /* WChartFactory.m */,
+				9127E2A01E8A480800706D23 /* WColumChart.h */,
+				9127E2A11E8A480800706D23 /* WColumChart.m */,
+				9127E2A31E8A48AB00706D23 /* WLineChart.h */,
+				9127E2A41E8A48AB00706D23 /* WLineChart.m */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 		E0F506E1ED9A316BC3592A9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9127E2911E8A41EC00706D23 /* HealthKit.framework */,
+				9127E28F1E8A41DC00706D23 /* MapKit.framework */,
+				9127E28D1E8A41D400706D23 /* CoreLocation.framework */,
 				F859A2507DCEBB891D21C142 /* libPods-W.a */,
 			);
 			name = Frameworks;
@@ -276,6 +343,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = ZV87992WEQ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -303,7 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9127E2781E8A13D500706D23 /* Launch Screen.storyboard in Resources */,
-				9127E2471E89FC1B00706D23 /* Assets.xcassets in Resources */,
+				91A82CBA1E8A88D80039228D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,10 +434,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9127E28C1E8A3F4200706D23 /* NSDate+WExtension.m in Sources */,
+				9127E29C1E8A472300706D23 /* WChartFactory.m in Sources */,
+				9127E2991E8A43A700706D23 /* WHealthDateManager.m in Sources */,
+				9127E27E1E8A33A400706D23 /* WRecordCategoryView.m in Sources */,
+				9127E2811E8A39DA00706D23 /* WRecordCircleView.m in Sources */,
 				9127E2761E8A118000706D23 /* WNavigationController.m in Sources */,
 				9127E27B1E8A173100706D23 /* WRecordViewController.m in Sources */,
 				9127E2691E8A0CF700706D23 /* WTabbarController.m in Sources */,
 				9127E2661E8A065200706D23 /* AppDelegate.m in Sources */,
+				9127E2A51E8A48AB00706D23 /* WLineChart.m in Sources */,
+				9127E2A21E8A480800706D23 /* WColumChart.m in Sources */,
+				9127E2891E8A3DEE00706D23 /* WBaseChart.m in Sources */,
+				9127E2961E8A426C00706D23 /* WUserModel.m in Sources */,
 				9127E23C1E89FC1B00706D23 /* main.m in Sources */,
 				9127E2701E8A0EBC00706D23 /* UIColor+WExtension.m in Sources */,
 			);
@@ -467,6 +548,8 @@
 			baseConfigurationReference = E45D223DB5AE50AED17DBEC7 /* Pods-W.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = W/W.entitlements;
 				DEVELOPMENT_TEAM = ZV87992WEQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/W/Tools/PrefixHeader.pch";
@@ -482,6 +565,8 @@
 			baseConfigurationReference = A15CFD733427EA5DD38171A4 /* Pods-W.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = W/W.entitlements;
 				DEVELOPMENT_TEAM = ZV87992WEQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/W/Tools/PrefixHeader.pch";
