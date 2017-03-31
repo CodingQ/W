@@ -9,6 +9,9 @@
 #import "WTabbarController.h"
 #import "WNavigationController.h"
 #import "WRecordViewController.h"
+#import "WAnalazyViewController.h"
+#import "WUserViewController.h"
+#import "WMenstruatlController.h"
 @interface WTabbarController ()
 
 @end
@@ -32,10 +35,13 @@
 
     [self addChildController:record normalImage:nil selectedImage:nil title:@"记录"];
     
-    UIViewController *analazyVC = [[UIViewController alloc] init];
+    WMenstruatlController *menstruatl = [[WMenstruatlController alloc] init];
+    [self addChildController:menstruatl normalImage:nil selectedImage:nil title:nil];
+    
+    WAnalazyViewController *analazyVC = [[WAnalazyViewController alloc] init];
     [self addChildController:analazyVC normalImage:nil selectedImage:nil title:@"分析"];
 
-    UIViewController *userVC = [[UIViewController alloc] init];
+    WUserViewController *userVC = [[WUserViewController alloc] init];
     [self addChildController:userVC normalImage:nil selectedImage:nil title:@"我"];
 
 }
@@ -76,7 +82,8 @@
     _isRoot = isRoot;
     if (isRoot) {
         //初始化提示框
-        [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
+        [SVProgressHUD setMinimumDismissTimeInterval:2];
+        [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeClear];
         [SVProgressHUD setBackgroundColor:[UIColor textColor]];
         [SVProgressHUD setForegroundColor:[UIColor whiteColor]];
         [SVProgressHUD setFont:[UIFont preferredFontForTextStyle:UIFontTextStyleSubheadline]];

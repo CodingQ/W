@@ -25,7 +25,7 @@
     //    RUNLoginViewController *login = [[RUNLoginViewController alloc] init];
     //    RUNNavigationViewController *nav = [[RUNNavigationViewController alloc] initWithRootViewController:login];
     //    self.window.rootViewController = nav;
-    
+     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     [self.window makeKeyAndVisible];
     return YES;
 

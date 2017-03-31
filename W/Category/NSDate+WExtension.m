@@ -29,6 +29,18 @@
     return [dateFormatter stringFromDate:date];
 }
 
++ (NSString *)stringFromDate:(NSDate *)date {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = @"yyyy年MM月";
+    return [formatter stringFromDate:date];
+}
+
++ (NSDate *)dateFromString:(NSString *)string {
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    formatter.dateFormat = @"yyyy年MM月dd日";
+    return [formatter dateFromString:string];
+}
+
 #pragma mark - String To Date
 + (NSDate *)getDateFromString:(NSString *)dateStr {
     return [self getDateFromString:dateStr withFormatter:@"yyyy年MM月dd日 HH:mm:ss"];

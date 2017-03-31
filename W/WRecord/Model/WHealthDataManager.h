@@ -29,7 +29,7 @@ typedef enum : NSUInteger {
     WEnergyType
 } WMotionType;
 
-@interface WHealthDateManager : NSObject
+@interface WHealthDataManager : NSObject
 
 - (void)getAuthorizationWithHandle:(WAuthorizationResult)handle;
 
@@ -38,5 +38,5 @@ typedef enum : NSUInteger {
 
 - (void)saveWeightWithValue:(double)value withDate:(NSDate *)date handle:(WSaveDataBlock)block;
 - (void)saveEnergyWithValue:(double)value handle:(WSaveDataBlock)block;
-
+- (void)getMenstrualCycleStart;
 @end

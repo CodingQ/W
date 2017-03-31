@@ -14,6 +14,6 @@
 
 
 #define Notice_Run @"Notice_Run"
-
-#define RUNUSERNOTIFICATION @"RUNUSERNOTIFICATION"
+#define Notic_updateImage @"Notic_updateImage"
+#define Notic_updateUser @"Notic_updateUser"
 #endif /* Macros_h */

@@ -10,10 +10,11 @@
 #import "WBaseChart.h"
 
 typedef enum : NSUInteger {
-    WChartLine,       //折线
+    WChartLine,                   // 折线图
     WChartColumnar,               // 柱状图
     WChartPanCake                 // 饼图
 } WChartType;
+
 @interface WChartFactory : NSObject
 + (WBaseChart *)chartsFactory:(WChartType)chartType;
 @end

@@ -6,17 +6,17 @@
 //  Copyright © 2017年 harry.qian. All rights reserved.
 //
 
-#import "WHealthDateManager.h"
+#import "WHealthDataManager.h"
 #import <HealthKit/HealthKit.h>
 
 
-@interface WHealthDateManager ()
+@interface WHealthDataManager ()
 
 @property (nonatomic, strong) HKHealthStore *healthStore;
 
 @end
 
-@implementation WHealthDateManager
+@implementation WHealthDataManager : NSObject
 
 - (instancetype)init {
     self = [super init];
@@ -37,9 +37,13 @@
     HKObjectType *disCount = [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDistanceWalkingRunning];
     HKObjectType *flightsClimbedCount = [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierFlightsClimbed];
     HKObjectType *energyCount = [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierActiveEnergyBurned];
-    NSSet *healthSet = [NSSet setWithObjects:stepCount, weightCount, disCount, flightsClimbedCount, energyCount, nil];
+
+    //TODO:经期相关数据
+    HKObjectType *menstrualFlow = [HKObjectType categoryTypeForIdentifier:HKCategoryTypeIdentifierMenstrualFlow];
+
+    NSSet *healthSet = [NSSet setWithObjects:stepCount, weightCount, disCount, flightsClimbedCount, energyCount,menstrualFlow,nil];
     
-    NSSet *writeSet = [NSSet setWithObjects:weightCount, energyCount, nil];
+    NSSet *writeSet = [NSSet setWithObjects:weightCount, energyCount,menstrualFlow ,nil];
     
     //从健康中获取权限
     [self.healthStore requestAuthorizationToShareTypes:writeSet readTypes:healthSet completion:^(BOOL success, NSError * _Nullable error) {
@@ -195,5 +199,24 @@
         }
     }];
 }
+
+
+- (void)getMenstrualCycleStart{
+    HKCategoryType *motion = [HKCategoryType categoryTypeForIdentifier:HKCategoryTypeIdentifierMenstrualFlow];
+    NSDate *be = [NSDate getDateFromString:@"2017年03月29日 11:34:21"];
+    NSDate *en = [NSDate date];
+    NSPredicate *predicate = [HKQuery predicateForSamplesWithStartDate:be endDate:en options:HKQueryOptionNone];
+    
+    HKSampleQuery *query = [[HKSampleQuery alloc] initWithSampleType:motion predicate:predicate limit:ULONG_MAX sortDescriptors:nil resultsHandler:^(HKSampleQuery * _Nonnull query, NSArray<__kindof HKSample *> * _Nullable results, NSError * _Nullable error) {
+        NSLog(@"%@",query);
+        NSLog(@"%@",results);
+    }];
+    
+    [self.healthStore executeQuery:query];
+}
+
+
+
+
 
 @end

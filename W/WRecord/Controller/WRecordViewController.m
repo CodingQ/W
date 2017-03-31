@@ -12,8 +12,11 @@
 #import <CoreMotion/CoreMotion.h>
 #import "WBaseChart.h"
 #import "WUserModel.h"
-#import "WHealthDateManager.h"
+#import "WHealthDataManager.h"
 #import "WChartFactory.h"
+#import "WCalendarViewController.h"
+#import "WCalendarVC.h"
+
 
 static CGFloat const animationDuration = 1.f;
 
@@ -35,7 +38,7 @@ static CGFloat const animationDuration = 1.f;
 @property (nonatomic, strong) WRecordCircleView *circleView;
 @property (nonatomic, strong) WBaseChart *barChart;
 
-@property (nonatomic, strong) WHealthDateManager *healthManager;
+@property (nonatomic, strong) WHealthDataManager *healthManager;
 @property (nonatomic, strong) NSDate *currentDate;
 @property (nonatomic, strong) WUserModel *userModel;
 @property (nonatomic, strong) CMPedometer *cmPedometer;
@@ -102,7 +105,7 @@ static CGFloat const animationDuration = 1.f;
     _colors = @[[UIColor colorWithRed:234 / 255.0 green:98 / 255.0 blue:86 / 255.0 alpha:1],
                 [UIColor colorWithRed:245 / 255.0 green:166 / 255.0 blue:35 / 255.0 alpha:1],
                 [UIColor mainColor]];
-    self.healthManager = [[WHealthDateManager alloc] init];
+    self.healthManager = [[WHealthDataManager alloc] init];
 }
 
 #pragma mark - Navigation Item
@@ -110,11 +113,12 @@ static CGFloat const animationDuration = 1.f;
     //单独设置Navigation的title
     self.navigationItem.title = [NSDate getCurrentDate];
     
-    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"calendar"]
-                                                                   style:UIBarButtonItemStyleDone
-                                                                  target:self
-                                                                  action:@selector(leftBarItemAction:)];
-    self.navigationItem.leftBarButtonItem = leftButton;
+//    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"calendar"]
+//                                                                   style:UIBarButtonItemStyleDone
+//                                                                  target:self
+//                                                                  action:@selector(leftBarItemAction:)];
+    UIBarButtonItem *leftbutton = [[UIBarButtonItem alloc] initWithTitle:@"日历" style:UIBarButtonItemStyleDone target:self action:@selector(leftBarItemAction:)];
+    self.navigationItem.leftBarButtonItem = leftbutton;
     
     UIBarButtonItem *rightBarButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"round_add"]
                                                                        style:UIBarButtonItemStylePlain
@@ -263,8 +267,10 @@ static CGFloat const animationDuration = 1.f;
             self.timeLabel.mainTitle = [NSString stringWithFormat:@"%.0f", timeValue];
             self.kcalLabel.mainTitle = [NSString stringWithFormat:@"%.0f", [self.userModel.weight doubleValue] *
                                         ([pedometerData.distance doubleValue] / 1000) * 1.036];
-            if (_count > 0) {
-                [self.healthManager saveEnergyWithValue:[self.kcalLabel.mainTitle doubleValue] - _oriEnergy handle:nil];
+            //fixme:修复卡路里计算逻辑
+            double value = [self.kcalLabel.mainTitle doubleValue] - _oriEnergy;
+            if (value >0 ) {
+                [self.healthManager saveEnergyWithValue:value handle:nil];
             }
             //            self.kcalLabel.mainTitle = [NSString stringWithFormat:@"%.0f", [self.userModel.weight doubleValue] * timeValue / 60 *
             //                                        (25 / (400 / ([pedometerData.distance doubleValue] / timeValue)))];
@@ -371,21 +377,34 @@ static CGFloat const animationDuration = 1.f;
 
 #pragma mark - Bar Item Action
 - (void)leftBarItemAction:(UIBarButtonItem *)button {
-//    RUNCalendarViewController *caleVC = [[RUNCalendarViewController alloc] init];
+//    WCalendarViewController *caleVC = [[WCalendarViewController alloc] init];
 //    caleVC.currentDate = self.currentDate;
 //    __weak typeof(self) weakSelf = self;
 //    caleVC.calendarBlock = ^(NSString *dateMessage) {
 //        weakSelf.navigationItem.title = dateMessage;
-//        weakSelf.currentDate = [weakSelf.timeManager run_getDateFromString:dateMessage withFormatter:@"yyyy年MM月dd日"];
-//        [weakSelf p_changeDataWithDate:weakSelf.currentDate];
+//        weakSelf.currentDate = [NSDate dateFromString:dateMessage];
+//        [weakSelf changeDataWithDate:weakSelf.currentDate];
 //    };
 //    [self presentViewController:caleVC animated:YES completion:nil];
-//}
-//
+    
+        WCalendarVC *caleVC = [[WCalendarVC alloc] init];
+        caleVC.currentDate = self.currentDate;
+        __weak typeof(self) weakSelf = self;
+        caleVC.calendarBlock = ^(NSString *dateMessage) {
+            weakSelf.navigationItem.title = dateMessage;
+            NSDate *date = [NSDate dateFromString:dateMessage];
+            weakSelf.currentDate = [NSDate dateFromString:dateMessage];
+            [weakSelf changeDataWithDate:weakSelf.currentDate];
+        };
+        [self presentViewController:caleVC animated:YES completion:nil];
+    
+
+}
+
 //- (void)rightBarItemAction:(UIBarButtonItem *)button {
 //    RUNFuncViewController *funcVC = [[RUNFuncViewController alloc] init];
 //    [self presentViewController:funcVC animated:YES completion:nil];
-}
+//}
 
 #pragma mark - Button Action
 - (void)shotScreenButton:(UIButton *)button {

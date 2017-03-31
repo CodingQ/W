@@ -11,4 +11,6 @@
 @interface UIColor (WExtension)
 + (UIColor *)mainColor;
 + (UIColor *)textColor;
++ (UIColor *)colorWithHexString:(NSString *)string;
+
 @end

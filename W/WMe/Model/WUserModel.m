@@ -55,7 +55,7 @@
 
 - (NSString *)sex {
     if (!_sex) {
-        _sex = @"nv";
+        _sex = @"女";
     }
     return _sex;
 }
@@ -69,7 +69,7 @@
 
 - (NSString *)height {
     if (!_height) {
-        _height = @"168cm";
+        _height = @"168.0cm";
     }
     return _height;
 }
