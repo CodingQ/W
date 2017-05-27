@@ -172,7 +172,7 @@ static NSString *const FSCalendarCellID = @"FSCalendarCellID";
     _fllowersTableHeaderView.fllowersImageView.image = [UIImage imageNamed:@"月经期"];
     _fllowersTableHeaderView.dayLabel.text = @"7";
     //    _fllowersTableHeaderView.describeLabel.text = @"Day";
-    _fllowersTableHeaderView.stateLabel.text = @"Luteal phase";
+    _fllowersTableHeaderView.stateLabel.text = @"姨妈没走😣";
     // 日历
     [self.tableHeadScrollView addSubview:self.calendar];
     

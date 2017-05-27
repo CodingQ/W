@@ -56,13 +56,13 @@ static NSString *const kNormalCell = @"WUserNormalCell";
         NSMutableArray *height = [NSMutableArray array];
         NSMutableArray *height1 = [NSMutableArray array];
         NSMutableArray *tags = [NSMutableArray array];
-        for (int index = 50; index < 251; index++) {
+        for (int index = 150; index < 190; index++) {
             [height addObject:[NSString stringWithFormat:@"%d", index]];
         }
         for (int index = 0; index < 10; index++) {
             [height1 addObject:[NSString stringWithFormat:@"%d", index]];
         }
-        for (int index = 25; index < 251; index++) {
+        for (int index = 45; index < 110; index++) {
             [weight1 addObject:[NSString stringWithFormat:@"%d", index]];
         }
         for (int index = 0; index < 10; index++) {

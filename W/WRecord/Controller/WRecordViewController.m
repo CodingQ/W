@@ -134,9 +134,14 @@ static CGFloat const animationDuration = 1.f;
     self.circleView.totalStep = [self.userModel.tag integerValue];
     self.circleView.animationDuration = animationDuration;
     self.circleView.nowStep = @"0";
+    self.circleView.userInteractionEnabled = YES;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tap)];
+    [self.circleView addGestureRecognizer:tap];
     [self.view addSubview:self.circleView];
 }
-
+- (void)tap {
+    NSLog(@"点击");
+}
 #pragma mark - Add MessageText
 - (void)addMessageText {
     self.kcalLabel = [self getRecordCategoryView];

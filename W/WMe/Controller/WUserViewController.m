@@ -11,6 +11,7 @@
 #import "WUserModel.h"
 #import "WButton.h"
 #import "WUserEditViewController.h"
+#import "WDecideViewController.h"
 @interface WUserViewController () <WUserHeadDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 
 @property (nonatomic, strong) WUserHeadView   *userHead;
@@ -26,7 +27,7 @@
 - (NSArray *)images {
     if (!_images) {
 //        _images = @[@"userEdit", @"upData", @"history", @"set"];
-        _images = @[@"userEdit",@"userEdit"];
+        _images = @[@"ziliao-sel",@"dianhua-sel",@"xuanze-sel"];
     }
     return _images;
 }
@@ -34,7 +35,7 @@
 - (NSArray *)titles {
     if (!_titles) {
 //        _titles = @[@"个人资料", @"数据同步", @"历史记录", @"设置"];
-         _titles = @[@"个人资料",@"呼叫"];
+         _titles = @[@"个人资料",@"呼叫",@"选择恐惧"];
     }
     return _titles;
 }
@@ -122,21 +123,19 @@
             break;
         }
         case 1: {
-//            NSMutableString *str=[[NSMutableString alloc] initWithFormat:@"tel:%@",@"18321009404"];
-//            UIWebView *callWebview = [[UIWebView alloc] init];
-//            [callWebview loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:str]]];
-//            [self.view addSubview:callWebview];
-         WHealthDataManager *man =   [[WHealthDataManager alloc] init];
-            [man getMenstrualCycleStart];
+            NSString *num = [[NSString alloc] initWithFormat:@"telprompt://18321009404"]; //而这个方法则打电话前先弹框  是否打电话 然后打完电话之后回到程序中 网上说这个方法可能不合法 无法通过审核
+                             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:num]];
+//         WHealthDataManager *man =   [[WHealthDataManager alloc] init];
+//            [man getMenstrualCycleStart];
             break;
         }
-//        case 2: {
-//            RUNHistoryViewController *historyVC = [[RUNHistoryViewController alloc] init];
-//            historyVC.title = @"历史记录";
-//            historyVC.hidesBottomBarWhenPushed = YES;
-//            [self.navigationController pushViewController:historyVC animated:YES];
-//            break;
-//        }
+        case 2: {
+            WDecideViewController *decideVC = [[WDecideViewController alloc] init];
+            decideVC.title = @"选择恐惧";
+            decideVC.hidesBottomBarWhenPushed = YES;
+            [self presentViewController:decideVC animated:YES completion:nil];
+            break;
+        }
 //        case 3: {
 //            RUNSettingViewController *setVC = [[RUNSettingViewController alloc] init];
 //            setVC.title = @"设置";

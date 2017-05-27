@@ -49,11 +49,11 @@
 //    
     self.iconImageArray = [@[@"period-begin_end",@"period-begin_end"] mutableCopy];
     
-    self.titleLabelTextArray = [@[@"姨妈来了",@"姨妈走了"] mutableCopy];
+    self.titleLabelTextArray = [@[@"姨妈来了🙄",@"姨妈走了👻"] mutableCopy];
     
-    self.titleLabelForBottomStateGuide = @[@"姨妈",
-                                           @"姨妈可能要来",
-                                           @"姨妈没来"];
+    self.titleLabelForBottomStateGuide = @[@"姨妈还在😭",
+                                           @"姨妈可能要来🤔",
+                                           @"姨妈没来😎"];
     
  
 }

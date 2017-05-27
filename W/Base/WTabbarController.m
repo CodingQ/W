@@ -33,16 +33,18 @@
 - (void)p_setTabBar {
     WRecordViewController *record = [[WRecordViewController alloc] init];
 
-    [self addChildController:record normalImage:nil selectedImage:nil title:@"记录"];
+    [self addChildController:record normalImage:[UIImage imageNamed:@"zoulu"] selectedImage:[UIImage imageNamed:@"zoulu-sel"] title:@"记录"];
     
     WMenstruatlController *menstruatl = [[WMenstruatlController alloc] init];
-    [self addChildController:menstruatl normalImage:nil selectedImage:nil title:nil];
+    [self addChildController:menstruatl normalImage:[UIImage imageNamed:@"yima"] selectedImage:[UIImage imageNamed:@"yima-sel"] title:@"姨妈"];
     
     WAnalazyViewController *analazyVC = [[WAnalazyViewController alloc] init];
-    [self addChildController:analazyVC normalImage:nil selectedImage:nil title:@"分析"];
+    [self addChildController:analazyVC normalImage:[UIImage imageNamed:@"fenxi"] selectedImage:[UIImage imageNamed:@"fenxi-sel"] title:@"分析"];
 
     WUserViewController *userVC = [[WUserViewController alloc] init];
-    [self addChildController:userVC normalImage:nil selectedImage:nil title:@"我"];
+    [self addChildController:userVC normalImage:[UIImage imageNamed:@"wo"] selectedImage:[UIImage imageNamed:@"wo-sel"] title:@"我"];
+    
+
 
 }
 

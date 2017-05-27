@@ -7,191 +7,193 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9127E23C1E89FC1B00706D23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E23B1E89FC1B00706D23 /* main.m */; };
-		9127E2661E8A065200706D23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2641E8A065200706D23 /* AppDelegate.m */; };
-		9127E2691E8A0CF700706D23 /* WTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2681E8A0CF700706D23 /* WTabbarController.m */; };
-		9127E2701E8A0EBC00706D23 /* UIColor+WExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E26F1E8A0EBC00706D23 /* UIColor+WExtension.m */; };
-		9127E2761E8A118000706D23 /* WNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2751E8A118000706D23 /* WNavigationController.m */; };
-		9127E2781E8A13D500706D23 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9127E2771E8A13D500706D23 /* Launch Screen.storyboard */; };
-		9127E27B1E8A173100706D23 /* WRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E27A1E8A173100706D23 /* WRecordViewController.m */; };
-		9127E27E1E8A33A400706D23 /* WRecordCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E27D1E8A33A400706D23 /* WRecordCategoryView.m */; };
-		9127E2811E8A39DA00706D23 /* WRecordCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2801E8A39DA00706D23 /* WRecordCircleView.m */; };
-		9127E2891E8A3DEE00706D23 /* WBaseChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2881E8A3DEE00706D23 /* WBaseChart.m */; };
-		9127E28C1E8A3F4200706D23 /* NSDate+WExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E28B1E8A3F4200706D23 /* NSDate+WExtension.m */; };
 		9127E28E1E8A41D400706D23 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9127E28D1E8A41D400706D23 /* CoreLocation.framework */; };
 		9127E2901E8A41DC00706D23 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9127E28F1E8A41DC00706D23 /* MapKit.framework */; };
 		9127E2921E8A41EC00706D23 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9127E2911E8A41EC00706D23 /* HealthKit.framework */; };
-		9127E2961E8A426C00706D23 /* WUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2951E8A426C00706D23 /* WUserModel.m */; };
-		9127E2991E8A43A700706D23 /* WHealthDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2981E8A43A700706D23 /* WHealthDataManager.m */; };
-		9127E29C1E8A472300706D23 /* WChartFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E29B1E8A472300706D23 /* WChartFactory.m */; };
-		9127E2A21E8A480800706D23 /* WColumChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2A11E8A480800706D23 /* WColumChart.m */; };
-		9127E2A51E8A48AB00706D23 /* WLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9127E2A41E8A48AB00706D23 /* WLineChart.m */; };
-		917A432F1E8B88A0005C5D60 /* WAnalazyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A432E1E8B88A0005C5D60 /* WAnalazyViewController.m */; };
-		917A43321E8B89EA005C5D60 /* WChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A43311E8B89EA005C5D60 /* WChildViewController.m */; };
-		917A43351E8B95E3005C5D60 /* WAllDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A43341E8B95E3005C5D60 /* WAllDataViewController.m */; };
-		917A43381E8BA59C005C5D60 /* WUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A43371E8BA59C005C5D60 /* WUserViewController.m */; };
-		917A433B1E8BA640005C5D60 /* WUserHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A433A1E8BA640005C5D60 /* WUserHeadView.m */; };
-		917A433E1E8BA9E8005C5D60 /* WButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A433D1E8BA9E8005C5D60 /* WButton.m */; };
-		917A43411E8BAF4B005C5D60 /* WUserEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A43401E8BAF4B005C5D60 /* WUserEditViewController.m */; };
-		917A43441E8BAFE3005C5D60 /* WPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A43431E8BAFE3005C5D60 /* WPickViewController.m */; };
-		917A43481E8BB1BD005C5D60 /* WUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 917A43461E8BB1BD005C5D60 /* WUserTableViewCell.m */; };
-		917A43491E8BB1BD005C5D60 /* WUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 917A43471E8BB1BD005C5D60 /* WUserTableViewCell.xib */; };
-		919AC5B81E8E25E100AD498D /* WMenstruatlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5B71E8E25E100AD498D /* WMenstruatlController.m */; };
-		919AC5BB1E8E26CE00AD498D /* WCustomCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5BA1E8E26CE00AD498D /* WCustomCalendarCell.m */; };
-		919AC5DC1E8E27F600AD498D /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5BD1E8E27F600AD498D /* FSCalendar+Deprecated.m */; };
-		919AC5DD1E8E27F600AD498D /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5BF1E8E27F600AD498D /* FSCalendar.m */; };
-		919AC5DE1E8E27F600AD498D /* FSCalendarAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5C11E8E27F600AD498D /* FSCalendarAnimator.m */; };
-		919AC5DF1E8E27F600AD498D /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5C31E8E27F600AD498D /* FSCalendarAppearance.m */; };
-		919AC5E01E8E27F600AD498D /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5C51E8E27F600AD498D /* FSCalendarCalculator.m */; };
-		919AC5E11E8E27F600AD498D /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5C71E8E27F600AD498D /* FSCalendarCell.m */; };
-		919AC5E21E8E27F600AD498D /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5C91E8E27F600AD498D /* FSCalendarCollectionView.m */; };
-		919AC5E31E8E27F600AD498D /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5CB1E8E27F600AD498D /* FSCalendarCollectionViewLayout.m */; };
-		919AC5E41E8E27F600AD498D /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5CD1E8E27F600AD498D /* FSCalendarConstants.m */; };
-		919AC5E51E8E27F600AD498D /* FSCalendarDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5CF1E8E27F600AD498D /* FSCalendarDelegateProxy.m */; };
-		919AC5E61E8E27F600AD498D /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5D21E8E27F600AD498D /* FSCalendarExtensions.m */; };
-		919AC5E71E8E27F600AD498D /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5D41E8E27F600AD498D /* FSCalendarHeaderView.m */; };
-		919AC5E81E8E27F600AD498D /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5D61E8E27F600AD498D /* FSCalendarScopeHandle.m */; };
-		919AC5E91E8E27F600AD498D /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5D81E8E27F600AD498D /* FSCalendarStickyHeader.m */; };
-		919AC5EA1E8E27F600AD498D /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5DA1E8E27F600AD498D /* FSCalendarWeekdayView.m */; };
-		919AC5EB1E8E27F600AD498D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 919AC5DB1E8E27F600AD498D /* Info.plist */; };
-		919AC5EE1E8E28E500AD498D /* WPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5ED1E8E28E500AD498D /* WPageControl.m */; };
-		919AC5F11E8E2EFC00AD498D /* WFllowersHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5F01E8E2EFC00AD498D /* WFllowersHeaderView.m */; };
-		919AC5F41E8E301700AD498D /* WMenstrualModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5F31E8E301700AD498D /* WMenstrualModel.m */; };
-		919AC5F71E8E311900AD498D /* WMenstrualPeriodAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5F61E8E311900AD498D /* WMenstrualPeriodAlgorithm.m */; };
-		919AC5FE1E8E321F00AD498D /* FlowAndPainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5F91E8E321F00AD498D /* FlowAndPainTableViewCell.m */; };
-		919AC5FF1E8E321F00AD498D /* FlowAndPainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 919AC5FA1E8E321F00AD498D /* FlowAndPainTableViewCell.xib */; };
-		919AC6001E8E321F00AD498D /* SetPeriodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC5FC1E8E321F00AD498D /* SetPeriodTableViewCell.m */; };
-		919AC6011E8E321F00AD498D /* SetPeriodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 919AC5FD1E8E321F00AD498D /* SetPeriodTableViewCell.xib */; };
-		919AC6041E8E324300AD498D /* WCustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC6031E8E324300AD498D /* WCustomSwitch.m */; };
-		919AC6071E8E574600AD498D /* WCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 919AC6061E8E574600AD498D /* WCalendarVC.m */; };
-		91A82CBA1E8A88D80039228D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A82CB91E8A88D80039228D /* Images.xcassets */; };
-		91A82CBD1E8B5E7D0039228D /* WCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A82CBC1E8B5E7C0039228D /* WCalendarView.m */; };
-		91A82CC01E8B62F70039228D /* WCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A82CBF1E8B62F70039228D /* WCalendarCollectionViewCell.m */; };
-		91A82CC31E8B64200039228D /* WCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A82CC21E8B64200039228D /* WCalendarViewController.m */; };
-		91A82CC61E8B64C50039228D /* WTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91A82CC51E8B64C50039228D /* WTransitionAnimation.m */; };
+		91A7048A1ED9682300EDB507 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91A704891ED9682300EDB507 /* Launch Screen.storyboard */; };
+		91C123631ED966170087662C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122DC1ED966170087662C /* AppDelegate.m */; };
+		91C123641ED966170087662C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122DD1ED966170087662C /* main.m */; };
+		91C123651ED966170087662C /* WNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122DF1ED966170087662C /* WNavigationController.m */; };
+		91C123661ED966170087662C /* WTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122E11ED966170087662C /* WTabbarController.m */; };
+		91C123671ED966170087662C /* NSDate+WExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122E41ED966170087662C /* NSDate+WExtension.m */; };
+		91C123681ED966170087662C /* UIColor+WExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122E61ED966170087662C /* UIColor+WExtension.m */; };
+		91C123691ED966170087662C /* WButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122E81ED966170087662C /* WButton.m */; };
+		91C1236A1ED966170087662C /* WCustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122EA1ED966170087662C /* WCustomSwitch.m */; };
+		91C1236B1ED966170087662C /* WPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122EC1ED966170087662C /* WPageControl.m */; };
+		91C1236C1ED966170087662C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91C122ED1ED966170087662C /* Images.xcassets */; };
+		91C1236D1ED966170087662C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 91C122EE1ED966170087662C /* Info.plist */; };
+		91C1236F1ED966170087662C /* WBaseChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122F31ED966170087662C /* WBaseChart.m */; };
+		91C123701ED966170087662C /* WChartFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122F51ED966170087662C /* WChartFactory.m */; };
+		91C123711ED966170087662C /* WColumChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122F71ED966170087662C /* WColumChart.m */; };
+		91C123721ED966170087662C /* WLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122F91ED966170087662C /* WLineChart.m */; };
+		91C123731ED966170087662C /* FSCalendar+Deprecated.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122FB1ED966170087662C /* FSCalendar+Deprecated.m */; };
+		91C123741ED966170087662C /* FSCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122FD1ED966170087662C /* FSCalendar.m */; };
+		91C123751ED966170087662C /* FSCalendarAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C122FF1ED966170087662C /* FSCalendarAnimator.m */; };
+		91C123761ED966170087662C /* FSCalendarAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123011ED966170087662C /* FSCalendarAppearance.m */; };
+		91C123771ED966170087662C /* FSCalendarCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123031ED966170087662C /* FSCalendarCalculator.m */; };
+		91C123781ED966170087662C /* FSCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123051ED966170087662C /* FSCalendarCell.m */; };
+		91C123791ED966170087662C /* FSCalendarCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123071ED966170087662C /* FSCalendarCollectionView.m */; };
+		91C1237A1ED966170087662C /* FSCalendarCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123091ED966170087662C /* FSCalendarCollectionViewLayout.m */; };
+		91C1237B1ED966170087662C /* FSCalendarConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1230B1ED966170087662C /* FSCalendarConstants.m */; };
+		91C1237C1ED966170087662C /* FSCalendarDelegateProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1230D1ED966170087662C /* FSCalendarDelegateProxy.m */; };
+		91C1237D1ED966170087662C /* FSCalendarExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123101ED966170087662C /* FSCalendarExtensions.m */; };
+		91C1237E1ED966170087662C /* FSCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123121ED966170087662C /* FSCalendarHeaderView.m */; };
+		91C1237F1ED966170087662C /* FSCalendarScopeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123141ED966170087662C /* FSCalendarScopeHandle.m */; };
+		91C123801ED966170087662C /* FSCalendarStickyHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123161ED966170087662C /* FSCalendarStickyHeader.m */; };
+		91C123811ED966170087662C /* FSCalendarWeekdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123181ED966170087662C /* FSCalendarWeekdayView.m */; };
+		91C123821ED966170087662C /* WTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1231C1ED966170087662C /* WTransitionAnimation.m */; };
+		91C123831ED966170087662C /* WAllDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123211ED966170087662C /* WAllDataViewController.m */; };
+		91C123841ED966170087662C /* WAnalazyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123231ED966170087662C /* WAnalazyViewController.m */; };
+		91C123851ED966170087662C /* WUserEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123291ED966170087662C /* WUserEditViewController.m */; };
+		91C123861ED966180087662C /* WUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1232B1ED966170087662C /* WUserViewController.m */; };
+		91C123871ED966180087662C /* WUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1232E1ED966170087662C /* WUserModel.m */; };
+		91C123881ED966180087662C /* WUserHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123311ED966170087662C /* WUserHeadView.m */; };
+		91C123891ED966180087662C /* WUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123331ED966170087662C /* WUserTableViewCell.m */; };
+		91C1238A1ED966180087662C /* WUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91C123341ED966170087662C /* WUserTableViewCell.xib */; };
+		91C1238B1ED966180087662C /* WMenstruatlController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123381ED966170087662C /* WMenstruatlController.m */; };
+		91C1238C1ED966180087662C /* WMenstrualModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1233B1ED966170087662C /* WMenstrualModel.m */; };
+		91C1238D1ED966180087662C /* WMenstrualPeriodAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1233D1ED966170087662C /* WMenstrualPeriodAlgorithm.m */; };
+		91C1238E1ED966180087662C /* FlowAndPainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123401ED966170087662C /* FlowAndPainTableViewCell.m */; };
+		91C1238F1ED966180087662C /* FlowAndPainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91C123411ED966170087662C /* FlowAndPainTableViewCell.xib */; };
+		91C123901ED966180087662C /* SetPeriodTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123431ED966170087662C /* SetPeriodTableViewCell.m */; };
+		91C123911ED966180087662C /* SetPeriodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91C123441ED966170087662C /* SetPeriodTableViewCell.xib */; };
+		91C123921ED966180087662C /* WFllowersHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123461ED966170087662C /* WFllowersHeaderView.m */; };
+		91C123931ED966180087662C /* WCalendarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1234A1ED966170087662C /* WCalendarVC.m */; };
+		91C123941ED966180087662C /* WCalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1234C1ED966170087662C /* WCalendarViewController.m */; };
+		91C123951ED966180087662C /* WChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1234E1ED966170087662C /* WChildViewController.m */; };
+		91C123961ED966180087662C /* WDecideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123501ED966170087662C /* WDecideViewController.m */; };
+		91C123971ED966180087662C /* WPickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123521ED966170087662C /* WPickViewController.m */; };
+		91C123981ED966180087662C /* WRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123541ED966170087662C /* WRecordViewController.m */; };
+		91C123991ED966180087662C /* WCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123581ED966170087662C /* WCalendarCollectionViewCell.m */; };
+		91C1239A1ED966180087662C /* WCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1235A1ED966170087662C /* WCalendarView.m */; };
+		91C1239B1ED966180087662C /* WCustomCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1235C1ED966170087662C /* WCustomCalendarCell.m */; };
+		91C1239C1ED966180087662C /* WRecordCategoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C1235E1ED966170087662C /* WRecordCategoryView.m */; };
+		91C1239D1ED966180087662C /* WRecordCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123601ED966170087662C /* WRecordCircleView.m */; };
+		91C1239E1ED966180087662C /* WHealthDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C123621ED966170087662C /* WHealthDataManager.m */; };
 		E5D4C3BEC5A3FBFB4B83BE50 /* libPods-W.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F859A2507DCEBB891D21C142 /* libPods-W.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9127E2371E89FC1B00706D23 /* W.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9127E23B1E89FC1B00706D23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9127E24B1E89FC1B00706D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9127E2631E8A065200706D23 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9127E2641E8A065200706D23 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9127E2671E8A0CF700706D23 /* WTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTabbarController.h; sourceTree = "<group>"; };
-		9127E2681E8A0CF700706D23 /* WTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTabbarController.m; sourceTree = "<group>"; };
-		9127E26E1E8A0EBC00706D23 /* UIColor+WExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WExtension.h"; sourceTree = "<group>"; };
-		9127E26F1E8A0EBC00706D23 /* UIColor+WExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WExtension.m"; sourceTree = "<group>"; };
-		9127E2721E8A0F8500706D23 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
-		9127E2731E8A10AF00706D23 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		9127E2741E8A118000706D23 /* WNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNavigationController.h; sourceTree = "<group>"; };
-		9127E2751E8A118000706D23 /* WNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNavigationController.m; sourceTree = "<group>"; };
-		9127E2771E8A13D500706D23 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		9127E2791E8A173100706D23 /* WRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRecordViewController.h; sourceTree = "<group>"; };
-		9127E27A1E8A173100706D23 /* WRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRecordViewController.m; sourceTree = "<group>"; };
-		9127E27C1E8A33A400706D23 /* WRecordCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRecordCategoryView.h; sourceTree = "<group>"; };
-		9127E27D1E8A33A400706D23 /* WRecordCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRecordCategoryView.m; sourceTree = "<group>"; };
-		9127E27F1E8A39DA00706D23 /* WRecordCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRecordCircleView.h; sourceTree = "<group>"; };
-		9127E2801E8A39DA00706D23 /* WRecordCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRecordCircleView.m; sourceTree = "<group>"; };
-		9127E2871E8A3DEE00706D23 /* WBaseChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBaseChart.h; sourceTree = "<group>"; };
-		9127E2881E8A3DEE00706D23 /* WBaseChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBaseChart.m; sourceTree = "<group>"; };
-		9127E28A1E8A3F4200706D23 /* NSDate+WExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WExtension.h"; sourceTree = "<group>"; };
-		9127E28B1E8A3F4200706D23 /* NSDate+WExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WExtension.m"; sourceTree = "<group>"; };
 		9127E28D1E8A41D400706D23 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		9127E28F1E8A41DC00706D23 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9127E2911E8A41EC00706D23 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
-		9127E2931E8A41F200706D23 /* W.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = W.entitlements; sourceTree = "<group>"; };
-		9127E2941E8A426C00706D23 /* WUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserModel.h; sourceTree = "<group>"; };
-		9127E2951E8A426C00706D23 /* WUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserModel.m; sourceTree = "<group>"; };
-		9127E2971E8A43A700706D23 /* WHealthDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHealthDataManager.h; sourceTree = "<group>"; };
-		9127E2981E8A43A700706D23 /* WHealthDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHealthDataManager.m; sourceTree = "<group>"; };
-		9127E29A1E8A472300706D23 /* WChartFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WChartFactory.h; sourceTree = "<group>"; };
-		9127E29B1E8A472300706D23 /* WChartFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WChartFactory.m; sourceTree = "<group>"; };
-		9127E2A01E8A480800706D23 /* WColumChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WColumChart.h; sourceTree = "<group>"; };
-		9127E2A11E8A480800706D23 /* WColumChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WColumChart.m; sourceTree = "<group>"; };
-		9127E2A31E8A48AB00706D23 /* WLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLineChart.h; sourceTree = "<group>"; };
-		9127E2A41E8A48AB00706D23 /* WLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLineChart.m; sourceTree = "<group>"; };
-		917A432D1E8B88A0005C5D60 /* WAnalazyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAnalazyViewController.h; sourceTree = "<group>"; };
-		917A432E1E8B88A0005C5D60 /* WAnalazyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAnalazyViewController.m; sourceTree = "<group>"; };
-		917A43301E8B89EA005C5D60 /* WChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WChildViewController.h; sourceTree = "<group>"; };
-		917A43311E8B89EA005C5D60 /* WChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WChildViewController.m; sourceTree = "<group>"; };
-		917A43331E8B95E3005C5D60 /* WAllDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAllDataViewController.h; sourceTree = "<group>"; };
-		917A43341E8B95E3005C5D60 /* WAllDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAllDataViewController.m; sourceTree = "<group>"; };
-		917A43361E8BA59C005C5D60 /* WUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserViewController.h; sourceTree = "<group>"; };
-		917A43371E8BA59C005C5D60 /* WUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserViewController.m; sourceTree = "<group>"; };
-		917A43391E8BA640005C5D60 /* WUserHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserHeadView.h; sourceTree = "<group>"; };
-		917A433A1E8BA640005C5D60 /* WUserHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserHeadView.m; sourceTree = "<group>"; };
-		917A433C1E8BA9E8005C5D60 /* WButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WButton.h; sourceTree = "<group>"; };
-		917A433D1E8BA9E8005C5D60 /* WButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WButton.m; sourceTree = "<group>"; };
-		917A433F1E8BAF4B005C5D60 /* WUserEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserEditViewController.h; sourceTree = "<group>"; };
-		917A43401E8BAF4B005C5D60 /* WUserEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserEditViewController.m; sourceTree = "<group>"; };
-		917A43421E8BAFE3005C5D60 /* WPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPickViewController.h; sourceTree = "<group>"; };
-		917A43431E8BAFE3005C5D60 /* WPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPickViewController.m; sourceTree = "<group>"; };
-		917A43451E8BB1BD005C5D60 /* WUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserTableViewCell.h; sourceTree = "<group>"; };
-		917A43461E8BB1BD005C5D60 /* WUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserTableViewCell.m; sourceTree = "<group>"; };
-		917A43471E8BB1BD005C5D60 /* WUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUserTableViewCell.xib; sourceTree = "<group>"; };
-		919AC5B61E8E25E100AD498D /* WMenstruatlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMenstruatlController.h; sourceTree = "<group>"; };
-		919AC5B71E8E25E100AD498D /* WMenstruatlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMenstruatlController.m; sourceTree = "<group>"; };
-		919AC5B91E8E26CE00AD498D /* WCustomCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCustomCalendarCell.h; sourceTree = "<group>"; };
-		919AC5BA1E8E26CE00AD498D /* WCustomCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCustomCalendarCell.m; sourceTree = "<group>"; };
-		919AC5BD1E8E27F600AD498D /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
-		919AC5BE1E8E27F600AD498D /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
-		919AC5BF1E8E27F600AD498D /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
-		919AC5C01E8E27F600AD498D /* FSCalendarAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAnimator.h; sourceTree = "<group>"; };
-		919AC5C11E8E27F600AD498D /* FSCalendarAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAnimator.m; sourceTree = "<group>"; };
-		919AC5C21E8E27F600AD498D /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
-		919AC5C31E8E27F600AD498D /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
-		919AC5C41E8E27F600AD498D /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
-		919AC5C51E8E27F600AD498D /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
-		919AC5C61E8E27F600AD498D /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
-		919AC5C71E8E27F600AD498D /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
-		919AC5C81E8E27F600AD498D /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
-		919AC5C91E8E27F600AD498D /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
-		919AC5CA1E8E27F600AD498D /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
-		919AC5CB1E8E27F600AD498D /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
-		919AC5CC1E8E27F600AD498D /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
-		919AC5CD1E8E27F600AD498D /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
-		919AC5CE1E8E27F600AD498D /* FSCalendarDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegateProxy.h; sourceTree = "<group>"; };
-		919AC5CF1E8E27F600AD498D /* FSCalendarDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegateProxy.m; sourceTree = "<group>"; };
-		919AC5D01E8E27F600AD498D /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
-		919AC5D11E8E27F600AD498D /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
-		919AC5D21E8E27F600AD498D /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
-		919AC5D31E8E27F600AD498D /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
-		919AC5D41E8E27F600AD498D /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
-		919AC5D51E8E27F600AD498D /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarScopeHandle.h; sourceTree = "<group>"; };
-		919AC5D61E8E27F600AD498D /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarScopeHandle.m; sourceTree = "<group>"; };
-		919AC5D71E8E27F600AD498D /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
-		919AC5D81E8E27F600AD498D /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
-		919AC5D91E8E27F600AD498D /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
-		919AC5DA1E8E27F600AD498D /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
-		919AC5DB1E8E27F600AD498D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		919AC5EC1E8E28E500AD498D /* WPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPageControl.h; sourceTree = "<group>"; };
-		919AC5ED1E8E28E500AD498D /* WPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPageControl.m; sourceTree = "<group>"; };
-		919AC5EF1E8E2EFC00AD498D /* WFllowersHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFllowersHeaderView.h; sourceTree = "<group>"; };
-		919AC5F01E8E2EFC00AD498D /* WFllowersHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFllowersHeaderView.m; sourceTree = "<group>"; };
-		919AC5F21E8E301700AD498D /* WMenstrualModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMenstrualModel.h; sourceTree = "<group>"; };
-		919AC5F31E8E301700AD498D /* WMenstrualModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMenstrualModel.m; sourceTree = "<group>"; };
-		919AC5F51E8E311900AD498D /* WMenstrualPeriodAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMenstrualPeriodAlgorithm.h; sourceTree = "<group>"; };
-		919AC5F61E8E311900AD498D /* WMenstrualPeriodAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMenstrualPeriodAlgorithm.m; sourceTree = "<group>"; };
-		919AC5F81E8E321F00AD498D /* FlowAndPainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowAndPainTableViewCell.h; sourceTree = "<group>"; };
-		919AC5F91E8E321F00AD498D /* FlowAndPainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowAndPainTableViewCell.m; sourceTree = "<group>"; };
-		919AC5FA1E8E321F00AD498D /* FlowAndPainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlowAndPainTableViewCell.xib; sourceTree = "<group>"; };
-		919AC5FB1E8E321F00AD498D /* SetPeriodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPeriodTableViewCell.h; sourceTree = "<group>"; };
-		919AC5FC1E8E321F00AD498D /* SetPeriodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPeriodTableViewCell.m; sourceTree = "<group>"; };
-		919AC5FD1E8E321F00AD498D /* SetPeriodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetPeriodTableViewCell.xib; sourceTree = "<group>"; };
-		919AC6021E8E324300AD498D /* WCustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCustomSwitch.h; sourceTree = "<group>"; };
-		919AC6031E8E324300AD498D /* WCustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCustomSwitch.m; sourceTree = "<group>"; };
-		919AC6051E8E574600AD498D /* WCalendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCalendarVC.h; sourceTree = "<group>"; };
-		919AC6061E8E574600AD498D /* WCalendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCalendarVC.m; sourceTree = "<group>"; };
-		91A82CB91E8A88D80039228D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		91A82CBB1E8B5E7C0039228D /* WCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCalendarView.h; sourceTree = "<group>"; };
-		91A82CBC1E8B5E7C0039228D /* WCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCalendarView.m; sourceTree = "<group>"; };
-		91A82CBE1E8B62F70039228D /* WCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCalendarCollectionViewCell.h; sourceTree = "<group>"; };
-		91A82CBF1E8B62F70039228D /* WCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCalendarCollectionViewCell.m; sourceTree = "<group>"; };
-		91A82CC11E8B64200039228D /* WCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCalendarViewController.h; sourceTree = "<group>"; };
-		91A82CC21E8B64200039228D /* WCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCalendarViewController.m; sourceTree = "<group>"; };
-		91A82CC41E8B64C50039228D /* WTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTransitionAnimation.h; sourceTree = "<group>"; };
-		91A82CC51E8B64C50039228D /* WTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTransitionAnimation.m; sourceTree = "<group>"; };
+		91A704891ED9682300EDB507 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Category/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		91C122DB1ED966170087662C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91C122DC1ED966170087662C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91C122DD1ED966170087662C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91C122DE1ED966170087662C /* WNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNavigationController.h; sourceTree = "<group>"; };
+		91C122DF1ED966170087662C /* WNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNavigationController.m; sourceTree = "<group>"; };
+		91C122E01ED966170087662C /* WTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTabbarController.h; sourceTree = "<group>"; };
+		91C122E11ED966170087662C /* WTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTabbarController.m; sourceTree = "<group>"; };
+		91C122E31ED966170087662C /* NSDate+WExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WExtension.h"; sourceTree = "<group>"; };
+		91C122E41ED966170087662C /* NSDate+WExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WExtension.m"; sourceTree = "<group>"; };
+		91C122E51ED966170087662C /* UIColor+WExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WExtension.h"; sourceTree = "<group>"; };
+		91C122E61ED966170087662C /* UIColor+WExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WExtension.m"; sourceTree = "<group>"; };
+		91C122E71ED966170087662C /* WButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WButton.h; sourceTree = "<group>"; };
+		91C122E81ED966170087662C /* WButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WButton.m; sourceTree = "<group>"; };
+		91C122E91ED966170087662C /* WCustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCustomSwitch.h; sourceTree = "<group>"; };
+		91C122EA1ED966170087662C /* WCustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCustomSwitch.m; sourceTree = "<group>"; };
+		91C122EB1ED966170087662C /* WPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPageControl.h; sourceTree = "<group>"; };
+		91C122EC1ED966170087662C /* WPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPageControl.m; sourceTree = "<group>"; };
+		91C122ED1ED966170087662C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91C122EE1ED966170087662C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C122F21ED966170087662C /* WBaseChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBaseChart.h; sourceTree = "<group>"; };
+		91C122F31ED966170087662C /* WBaseChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBaseChart.m; sourceTree = "<group>"; };
+		91C122F41ED966170087662C /* WChartFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WChartFactory.h; sourceTree = "<group>"; };
+		91C122F51ED966170087662C /* WChartFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WChartFactory.m; sourceTree = "<group>"; };
+		91C122F61ED966170087662C /* WColumChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WColumChart.h; sourceTree = "<group>"; };
+		91C122F71ED966170087662C /* WColumChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WColumChart.m; sourceTree = "<group>"; };
+		91C122F81ED966170087662C /* WLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLineChart.h; sourceTree = "<group>"; };
+		91C122F91ED966170087662C /* WLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLineChart.m; sourceTree = "<group>"; };
+		91C122FB1ED966170087662C /* FSCalendar+Deprecated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FSCalendar+Deprecated.m"; sourceTree = "<group>"; };
+		91C122FC1ED966170087662C /* FSCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendar.h; sourceTree = "<group>"; };
+		91C122FD1ED966170087662C /* FSCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendar.m; sourceTree = "<group>"; };
+		91C122FE1ED966170087662C /* FSCalendarAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAnimator.h; sourceTree = "<group>"; };
+		91C122FF1ED966170087662C /* FSCalendarAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAnimator.m; sourceTree = "<group>"; };
+		91C123001ED966170087662C /* FSCalendarAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarAppearance.h; sourceTree = "<group>"; };
+		91C123011ED966170087662C /* FSCalendarAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarAppearance.m; sourceTree = "<group>"; };
+		91C123021ED966170087662C /* FSCalendarCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCalculator.h; sourceTree = "<group>"; };
+		91C123031ED966170087662C /* FSCalendarCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCalculator.m; sourceTree = "<group>"; };
+		91C123041ED966170087662C /* FSCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCell.h; sourceTree = "<group>"; };
+		91C123051ED966170087662C /* FSCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCell.m; sourceTree = "<group>"; };
+		91C123061ED966170087662C /* FSCalendarCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionView.h; sourceTree = "<group>"; };
+		91C123071ED966170087662C /* FSCalendarCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionView.m; sourceTree = "<group>"; };
+		91C123081ED966170087662C /* FSCalendarCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarCollectionViewLayout.h; sourceTree = "<group>"; };
+		91C123091ED966170087662C /* FSCalendarCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarCollectionViewLayout.m; sourceTree = "<group>"; };
+		91C1230A1ED966170087662C /* FSCalendarConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarConstants.h; sourceTree = "<group>"; };
+		91C1230B1ED966170087662C /* FSCalendarConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarConstants.m; sourceTree = "<group>"; };
+		91C1230C1ED966170087662C /* FSCalendarDelegateProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDelegateProxy.h; sourceTree = "<group>"; };
+		91C1230D1ED966170087662C /* FSCalendarDelegateProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarDelegateProxy.m; sourceTree = "<group>"; };
+		91C1230E1ED966170087662C /* FSCalendarDynamicHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarDynamicHeader.h; sourceTree = "<group>"; };
+		91C1230F1ED966170087662C /* FSCalendarExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarExtensions.h; sourceTree = "<group>"; };
+		91C123101ED966170087662C /* FSCalendarExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarExtensions.m; sourceTree = "<group>"; };
+		91C123111ED966170087662C /* FSCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarHeaderView.h; sourceTree = "<group>"; };
+		91C123121ED966170087662C /* FSCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarHeaderView.m; sourceTree = "<group>"; };
+		91C123131ED966170087662C /* FSCalendarScopeHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarScopeHandle.h; sourceTree = "<group>"; };
+		91C123141ED966170087662C /* FSCalendarScopeHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarScopeHandle.m; sourceTree = "<group>"; };
+		91C123151ED966170087662C /* FSCalendarStickyHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarStickyHeader.h; sourceTree = "<group>"; };
+		91C123161ED966170087662C /* FSCalendarStickyHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarStickyHeader.m; sourceTree = "<group>"; };
+		91C123171ED966170087662C /* FSCalendarWeekdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCalendarWeekdayView.h; sourceTree = "<group>"; };
+		91C123181ED966170087662C /* FSCalendarWeekdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCalendarWeekdayView.m; sourceTree = "<group>"; };
+		91C123191ED966170087662C /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		91C1231A1ED966170087662C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		91C1231B1ED966170087662C /* WTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTransitionAnimation.h; sourceTree = "<group>"; };
+		91C1231C1ED966170087662C /* WTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTransitionAnimation.m; sourceTree = "<group>"; };
+		91C1231D1ED966170087662C /* W.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = W.entitlements; sourceTree = "<group>"; };
+		91C123201ED966170087662C /* WAllDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAllDataViewController.h; sourceTree = "<group>"; };
+		91C123211ED966170087662C /* WAllDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAllDataViewController.m; sourceTree = "<group>"; };
+		91C123221ED966170087662C /* WAnalazyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAnalazyViewController.h; sourceTree = "<group>"; };
+		91C123231ED966170087662C /* WAnalazyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAnalazyViewController.m; sourceTree = "<group>"; };
+		91C123281ED966170087662C /* WUserEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserEditViewController.h; sourceTree = "<group>"; };
+		91C123291ED966170087662C /* WUserEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserEditViewController.m; sourceTree = "<group>"; };
+		91C1232A1ED966170087662C /* WUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserViewController.h; sourceTree = "<group>"; };
+		91C1232B1ED966170087662C /* WUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserViewController.m; sourceTree = "<group>"; };
+		91C1232D1ED966170087662C /* WUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserModel.h; sourceTree = "<group>"; };
+		91C1232E1ED966170087662C /* WUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserModel.m; sourceTree = "<group>"; };
+		91C123301ED966170087662C /* WUserHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserHeadView.h; sourceTree = "<group>"; };
+		91C123311ED966170087662C /* WUserHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserHeadView.m; sourceTree = "<group>"; };
+		91C123321ED966170087662C /* WUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WUserTableViewCell.h; sourceTree = "<group>"; };
+		91C123331ED966170087662C /* WUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WUserTableViewCell.m; sourceTree = "<group>"; };
+		91C123341ED966170087662C /* WUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WUserTableViewCell.xib; sourceTree = "<group>"; };
+		91C123371ED966170087662C /* WMenstruatlController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMenstruatlController.h; sourceTree = "<group>"; };
+		91C123381ED966170087662C /* WMenstruatlController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMenstruatlController.m; sourceTree = "<group>"; };
+		91C1233A1ED966170087662C /* WMenstrualModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMenstrualModel.h; sourceTree = "<group>"; };
+		91C1233B1ED966170087662C /* WMenstrualModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMenstrualModel.m; sourceTree = "<group>"; };
+		91C1233C1ED966170087662C /* WMenstrualPeriodAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMenstrualPeriodAlgorithm.h; sourceTree = "<group>"; };
+		91C1233D1ED966170087662C /* WMenstrualPeriodAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMenstrualPeriodAlgorithm.m; sourceTree = "<group>"; };
+		91C1233F1ED966170087662C /* FlowAndPainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowAndPainTableViewCell.h; sourceTree = "<group>"; };
+		91C123401ED966170087662C /* FlowAndPainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowAndPainTableViewCell.m; sourceTree = "<group>"; };
+		91C123411ED966170087662C /* FlowAndPainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlowAndPainTableViewCell.xib; sourceTree = "<group>"; };
+		91C123421ED966170087662C /* SetPeriodTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPeriodTableViewCell.h; sourceTree = "<group>"; };
+		91C123431ED966170087662C /* SetPeriodTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPeriodTableViewCell.m; sourceTree = "<group>"; };
+		91C123441ED966170087662C /* SetPeriodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetPeriodTableViewCell.xib; sourceTree = "<group>"; };
+		91C123451ED966170087662C /* WFllowersHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFllowersHeaderView.h; sourceTree = "<group>"; };
+		91C123461ED966170087662C /* WFllowersHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFllowersHeaderView.m; sourceTree = "<group>"; };
+		91C123491ED966170087662C /* WCalendarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCalendarVC.h; sourceTree = "<group>"; };
+		91C1234A1ED966170087662C /* WCalendarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCalendarVC.m; sourceTree = "<group>"; };
+		91C1234B1ED966170087662C /* WCalendarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCalendarViewController.h; sourceTree = "<group>"; };
+		91C1234C1ED966170087662C /* WCalendarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCalendarViewController.m; sourceTree = "<group>"; };
+		91C1234D1ED966170087662C /* WChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WChildViewController.h; sourceTree = "<group>"; };
+		91C1234E1ED966170087662C /* WChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WChildViewController.m; sourceTree = "<group>"; };
+		91C1234F1ED966170087662C /* WDecideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDecideViewController.h; sourceTree = "<group>"; };
+		91C123501ED966170087662C /* WDecideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDecideViewController.m; sourceTree = "<group>"; };
+		91C123511ED966170087662C /* WPickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPickViewController.h; sourceTree = "<group>"; };
+		91C123521ED966170087662C /* WPickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPickViewController.m; sourceTree = "<group>"; };
+		91C123531ED966170087662C /* WRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRecordViewController.h; sourceTree = "<group>"; };
+		91C123541ED966170087662C /* WRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRecordViewController.m; sourceTree = "<group>"; };
+		91C123571ED966170087662C /* WCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		91C123581ED966170087662C /* WCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		91C123591ED966170087662C /* WCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCalendarView.h; sourceTree = "<group>"; };
+		91C1235A1ED966170087662C /* WCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCalendarView.m; sourceTree = "<group>"; };
+		91C1235B1ED966170087662C /* WCustomCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCustomCalendarCell.h; sourceTree = "<group>"; };
+		91C1235C1ED966170087662C /* WCustomCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCustomCalendarCell.m; sourceTree = "<group>"; };
+		91C1235D1ED966170087662C /* WRecordCategoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRecordCategoryView.h; sourceTree = "<group>"; };
+		91C1235E1ED966170087662C /* WRecordCategoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRecordCategoryView.m; sourceTree = "<group>"; };
+		91C1235F1ED966170087662C /* WRecordCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRecordCircleView.h; sourceTree = "<group>"; };
+		91C123601ED966170087662C /* WRecordCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRecordCircleView.m; sourceTree = "<group>"; };
+		91C123611ED966170087662C /* WHealthDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHealthDataManager.h; sourceTree = "<group>"; };
+		91C123621ED966170087662C /* WHealthDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHealthDataManager.m; sourceTree = "<group>"; };
 		A15CFD733427EA5DD38171A4 /* Pods-W.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W.release.xcconfig"; path = "Pods/Target Support Files/Pods-W/Pods-W.release.xcconfig"; sourceTree = "<group>"; };
 		E45D223DB5AE50AED17DBEC7 /* Pods-W.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W.debug.xcconfig"; path = "Pods/Target Support Files/Pods-W/Pods-W.debug.xcconfig"; sourceTree = "<group>"; };
 		F859A2507DCEBB891D21C142 /* libPods-W.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-W.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,7 +226,7 @@
 		9127E22E1E89FC1B00706D23 = {
 			isa = PBXGroup;
 			children = (
-				9127E2391E89FC1B00706D23 /* W */,
+				91C122D91ED966170087662C /* W */,
 				9127E2381E89FC1B00706D23 /* Products */,
 				492A049388AA0C08720622E4 /* Pods */,
 				E0F506E1ED9A316BC3592A9D /* Frameworks */,
@@ -239,302 +241,295 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9127E2391E89FC1B00706D23 /* W */ = {
+		91C122D91ED966170087662C /* W */ = {
 			isa = PBXGroup;
 			children = (
-				9127E2931E8A41F200706D23 /* W.entitlements */,
-				919AC5B21E8E25AD00AD498D /* WMenstrual */,
-				9127E2561E8A064500706D23 /* WAnalyse */,
-				9127E25A1E8A064500706D23 /* WMe */,
-				9127E25E1E8A064500706D23 /* WRecord */,
-				9127E2621E8A065200706D23 /* Base */,
-				9127E2651E8A065200706D23 /* Category */,
-				9127E2551E8A064500706D23 /* Tools */,
-				9127E24B1E89FC1B00706D23 /* Info.plist */,
-				9127E2771E8A13D500706D23 /* Launch Screen.storyboard */,
-				9127E23B1E89FC1B00706D23 /* main.m */,
-				91A82CB91E8A88D80039228D /* Images.xcassets */,
-				9127E23A1E89FC1B00706D23 /* Supporting Files */,
+				91C122DA1ED966170087662C /* Base */,
+				91C122E21ED966170087662C /* Category */,
+				91C122ED1ED966170087662C /* Images.xcassets */,
+				91A704891ED9682300EDB507 /* Launch Screen.storyboard */,
+				91C122EE1ED966170087662C /* Info.plist */,
+				91C122F01ED966170087662C /* Tools */,
+				91C1231D1ED966170087662C /* W.entitlements */,
+				91C1231E1ED966170087662C /* WAnalyse */,
+				91C123261ED966170087662C /* WMe */,
+				91C123351ED966170087662C /* WMenstrual */,
+				91C123471ED966170087662C /* WRecord */,
 			);
 			path = W;
 			sourceTree = "<group>";
 		};
-		9127E23A1E89FC1B00706D23 /* Supporting Files */ = {
+		91C122DA1ED966170087662C /* Base */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9127E2551E8A064500706D23 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				919AC5BC1E8E27F600AD498D /* FSCalendar */,
-				9127E2861E8A3DEE00706D23 /* Charts */,
-				9127E2731E8A10AF00706D23 /* PrefixHeader.pch */,
-				9127E2721E8A0F8500706D23 /* Macros.h */,
-				91A82CC41E8B64C50039228D /* WTransitionAnimation.h */,
-				91A82CC51E8B64C50039228D /* WTransitionAnimation.m */,
-				917A43421E8BAFE3005C5D60 /* WPickViewController.h */,
-				917A43431E8BAFE3005C5D60 /* WPickViewController.m */,
-				919AC5F51E8E311900AD498D /* WMenstrualPeriodAlgorithm.h */,
-				919AC5F61E8E311900AD498D /* WMenstrualPeriodAlgorithm.m */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		9127E2561E8A064500706D23 /* WAnalyse */ = {
-			isa = PBXGroup;
-			children = (
-				9127E2571E8A064500706D23 /* Controller */,
-				9127E2581E8A064500706D23 /* Model */,
-				9127E2591E8A064500706D23 /* View */,
-			);
-			path = WAnalyse;
-			sourceTree = "<group>";
-		};
-		9127E2571E8A064500706D23 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				917A432D1E8B88A0005C5D60 /* WAnalazyViewController.h */,
-				917A432E1E8B88A0005C5D60 /* WAnalazyViewController.m */,
-				917A43301E8B89EA005C5D60 /* WChildViewController.h */,
-				917A43311E8B89EA005C5D60 /* WChildViewController.m */,
-				917A43331E8B95E3005C5D60 /* WAllDataViewController.h */,
-				917A43341E8B95E3005C5D60 /* WAllDataViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		9127E2581E8A064500706D23 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		9127E2591E8A064500706D23 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9127E25A1E8A064500706D23 /* WMe */ = {
-			isa = PBXGroup;
-			children = (
-				9127E25B1E8A064500706D23 /* Controller */,
-				9127E25C1E8A064500706D23 /* Model */,
-				9127E25D1E8A064500706D23 /* View */,
-			);
-			path = WMe;
-			sourceTree = "<group>";
-		};
-		9127E25B1E8A064500706D23 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				917A43361E8BA59C005C5D60 /* WUserViewController.h */,
-				917A433F1E8BAF4B005C5D60 /* WUserEditViewController.h */,
-				917A43401E8BAF4B005C5D60 /* WUserEditViewController.m */,
-				917A43371E8BA59C005C5D60 /* WUserViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		9127E25C1E8A064500706D23 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				9127E2941E8A426C00706D23 /* WUserModel.h */,
-				9127E2951E8A426C00706D23 /* WUserModel.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		9127E25D1E8A064500706D23 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				917A43451E8BB1BD005C5D60 /* WUserTableViewCell.h */,
-				917A43461E8BB1BD005C5D60 /* WUserTableViewCell.m */,
-				917A43471E8BB1BD005C5D60 /* WUserTableViewCell.xib */,
-				917A43391E8BA640005C5D60 /* WUserHeadView.h */,
-				917A433A1E8BA640005C5D60 /* WUserHeadView.m */,
-				917A433C1E8BA9E8005C5D60 /* WButton.h */,
-				917A433D1E8BA9E8005C5D60 /* WButton.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9127E25E1E8A064500706D23 /* WRecord */ = {
-			isa = PBXGroup;
-			children = (
-				9127E25F1E8A064500706D23 /* Controller */,
-				9127E2601E8A064500706D23 /* Model */,
-				9127E2611E8A064500706D23 /* View */,
-			);
-			path = WRecord;
-			sourceTree = "<group>";
-		};
-		9127E25F1E8A064500706D23 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				9127E2791E8A173100706D23 /* WRecordViewController.h */,
-				9127E27A1E8A173100706D23 /* WRecordViewController.m */,
-				919AC6051E8E574600AD498D /* WCalendarVC.h */,
-				919AC6061E8E574600AD498D /* WCalendarVC.m */,
-				91A82CC11E8B64200039228D /* WCalendarViewController.h */,
-				91A82CC21E8B64200039228D /* WCalendarViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		9127E2601E8A064500706D23 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				9127E2971E8A43A700706D23 /* WHealthDataManager.h */,
-				9127E2981E8A43A700706D23 /* WHealthDataManager.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		9127E2611E8A064500706D23 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				9127E27C1E8A33A400706D23 /* WRecordCategoryView.h */,
-				91A82CBB1E8B5E7C0039228D /* WCalendarView.h */,
-				91A82CBC1E8B5E7C0039228D /* WCalendarView.m */,
-				9127E27F1E8A39DA00706D23 /* WRecordCircleView.h */,
-				91A82CBE1E8B62F70039228D /* WCalendarCollectionViewCell.h */,
-				91A82CBF1E8B62F70039228D /* WCalendarCollectionViewCell.m */,
-				9127E2801E8A39DA00706D23 /* WRecordCircleView.m */,
-				9127E27D1E8A33A400706D23 /* WRecordCategoryView.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		9127E2621E8A065200706D23 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				9127E2631E8A065200706D23 /* AppDelegate.h */,
-				9127E2641E8A065200706D23 /* AppDelegate.m */,
-				9127E2671E8A0CF700706D23 /* WTabbarController.h */,
-				9127E2681E8A0CF700706D23 /* WTabbarController.m */,
-				9127E2741E8A118000706D23 /* WNavigationController.h */,
-				9127E2751E8A118000706D23 /* WNavigationController.m */,
+				91C122DB1ED966170087662C /* AppDelegate.h */,
+				91C122DC1ED966170087662C /* AppDelegate.m */,
+				91C122DD1ED966170087662C /* main.m */,
+				91C122DE1ED966170087662C /* WNavigationController.h */,
+				91C122DF1ED966170087662C /* WNavigationController.m */,
+				91C122E01ED966170087662C /* WTabbarController.h */,
+				91C122E11ED966170087662C /* WTabbarController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
 		};
-		9127E2651E8A065200706D23 /* Category */ = {
+		91C122E21ED966170087662C /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				9127E26E1E8A0EBC00706D23 /* UIColor+WExtension.h */,
-				9127E26F1E8A0EBC00706D23 /* UIColor+WExtension.m */,
-				9127E28A1E8A3F4200706D23 /* NSDate+WExtension.h */,
-				9127E28B1E8A3F4200706D23 /* NSDate+WExtension.m */,
+				91C122E31ED966170087662C /* NSDate+WExtension.h */,
+				91C122E41ED966170087662C /* NSDate+WExtension.m */,
+				91C122E51ED966170087662C /* UIColor+WExtension.h */,
+				91C122E61ED966170087662C /* UIColor+WExtension.m */,
+				91C122E71ED966170087662C /* WButton.h */,
+				91C122E81ED966170087662C /* WButton.m */,
+				91C122E91ED966170087662C /* WCustomSwitch.h */,
+				91C122EA1ED966170087662C /* WCustomSwitch.m */,
+				91C122EB1ED966170087662C /* WPageControl.h */,
+				91C122EC1ED966170087662C /* WPageControl.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		9127E2861E8A3DEE00706D23 /* Charts */ = {
+		91C122F01ED966170087662C /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				9127E2871E8A3DEE00706D23 /* WBaseChart.h */,
-				9127E2881E8A3DEE00706D23 /* WBaseChart.m */,
-				9127E29A1E8A472300706D23 /* WChartFactory.h */,
-				9127E29B1E8A472300706D23 /* WChartFactory.m */,
-				9127E2A01E8A480800706D23 /* WColumChart.h */,
-				9127E2A11E8A480800706D23 /* WColumChart.m */,
-				9127E2A31E8A48AB00706D23 /* WLineChart.h */,
-				9127E2A41E8A48AB00706D23 /* WLineChart.m */,
+				91C122F11ED966170087662C /* Charts */,
+				91C122FA1ED966170087662C /* FSCalendar */,
+				91C123191ED966170087662C /* Macros.h */,
+				91C1231A1ED966170087662C /* PrefixHeader.pch */,
+				91C1231B1ED966170087662C /* WTransitionAnimation.h */,
+				91C1231C1ED966170087662C /* WTransitionAnimation.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		91C122F11ED966170087662C /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				91C122F21ED966170087662C /* WBaseChart.h */,
+				91C122F31ED966170087662C /* WBaseChart.m */,
+				91C122F41ED966170087662C /* WChartFactory.h */,
+				91C122F51ED966170087662C /* WChartFactory.m */,
+				91C122F61ED966170087662C /* WColumChart.h */,
+				91C122F71ED966170087662C /* WColumChart.m */,
+				91C122F81ED966170087662C /* WLineChart.h */,
+				91C122F91ED966170087662C /* WLineChart.m */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
 		};
-		919AC5B21E8E25AD00AD498D /* WMenstrual */ = {
+		91C122FA1ED966170087662C /* FSCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				919AC5B31E8E25AD00AD498D /* Controller */,
-				919AC5B41E8E25AD00AD498D /* Model */,
-				919AC5B51E8E25AD00AD498D /* View */,
+				91C122FB1ED966170087662C /* FSCalendar+Deprecated.m */,
+				91C122FC1ED966170087662C /* FSCalendar.h */,
+				91C122FD1ED966170087662C /* FSCalendar.m */,
+				91C122FE1ED966170087662C /* FSCalendarAnimator.h */,
+				91C122FF1ED966170087662C /* FSCalendarAnimator.m */,
+				91C123001ED966170087662C /* FSCalendarAppearance.h */,
+				91C123011ED966170087662C /* FSCalendarAppearance.m */,
+				91C123021ED966170087662C /* FSCalendarCalculator.h */,
+				91C123031ED966170087662C /* FSCalendarCalculator.m */,
+				91C123041ED966170087662C /* FSCalendarCell.h */,
+				91C123051ED966170087662C /* FSCalendarCell.m */,
+				91C123061ED966170087662C /* FSCalendarCollectionView.h */,
+				91C123071ED966170087662C /* FSCalendarCollectionView.m */,
+				91C123081ED966170087662C /* FSCalendarCollectionViewLayout.h */,
+				91C123091ED966170087662C /* FSCalendarCollectionViewLayout.m */,
+				91C1230A1ED966170087662C /* FSCalendarConstants.h */,
+				91C1230B1ED966170087662C /* FSCalendarConstants.m */,
+				91C1230C1ED966170087662C /* FSCalendarDelegateProxy.h */,
+				91C1230D1ED966170087662C /* FSCalendarDelegateProxy.m */,
+				91C1230E1ED966170087662C /* FSCalendarDynamicHeader.h */,
+				91C1230F1ED966170087662C /* FSCalendarExtensions.h */,
+				91C123101ED966170087662C /* FSCalendarExtensions.m */,
+				91C123111ED966170087662C /* FSCalendarHeaderView.h */,
+				91C123121ED966170087662C /* FSCalendarHeaderView.m */,
+				91C123131ED966170087662C /* FSCalendarScopeHandle.h */,
+				91C123141ED966170087662C /* FSCalendarScopeHandle.m */,
+				91C123151ED966170087662C /* FSCalendarStickyHeader.h */,
+				91C123161ED966170087662C /* FSCalendarStickyHeader.m */,
+				91C123171ED966170087662C /* FSCalendarWeekdayView.h */,
+				91C123181ED966170087662C /* FSCalendarWeekdayView.m */,
 			);
-			path = WMenstrual;
+			path = FSCalendar;
 			sourceTree = "<group>";
 		};
-		919AC5B31E8E25AD00AD498D /* Controller */ = {
+		91C1231E1ED966170087662C /* WAnalyse */ = {
 			isa = PBXGroup;
 			children = (
-				919AC5B61E8E25E100AD498D /* WMenstruatlController.h */,
-				919AC5B71E8E25E100AD498D /* WMenstruatlController.m */,
-				919AC5EC1E8E28E500AD498D /* WPageControl.h */,
-				919AC5ED1E8E28E500AD498D /* WPageControl.m */,
+				91C1231F1ED966170087662C /* Controller */,
+				91C123241ED966170087662C /* Model */,
+				91C123251ED966170087662C /* View */,
+			);
+			path = WAnalyse;
+			sourceTree = "<group>";
+		};
+		91C1231F1ED966170087662C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91C123201ED966170087662C /* WAllDataViewController.h */,
+				91C123211ED966170087662C /* WAllDataViewController.m */,
+				91C123221ED966170087662C /* WAnalazyViewController.h */,
+				91C123231ED966170087662C /* WAnalazyViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		919AC5B41E8E25AD00AD498D /* Model */ = {
+		91C123241ED966170087662C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				919AC5F21E8E301700AD498D /* WMenstrualModel.h */,
-				919AC5F31E8E301700AD498D /* WMenstrualModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		919AC5B51E8E25AD00AD498D /* View */ = {
+		91C123251ED966170087662C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				919AC5F81E8E321F00AD498D /* FlowAndPainTableViewCell.h */,
-				919AC5F91E8E321F00AD498D /* FlowAndPainTableViewCell.m */,
-				919AC6021E8E324300AD498D /* WCustomSwitch.h */,
-				919AC6031E8E324300AD498D /* WCustomSwitch.m */,
-				919AC5FA1E8E321F00AD498D /* FlowAndPainTableViewCell.xib */,
-				919AC5FB1E8E321F00AD498D /* SetPeriodTableViewCell.h */,
-				919AC5FC1E8E321F00AD498D /* SetPeriodTableViewCell.m */,
-				919AC5FD1E8E321F00AD498D /* SetPeriodTableViewCell.xib */,
-				919AC5B91E8E26CE00AD498D /* WCustomCalendarCell.h */,
-				919AC5EF1E8E2EFC00AD498D /* WFllowersHeaderView.h */,
-				919AC5F01E8E2EFC00AD498D /* WFllowersHeaderView.m */,
-				919AC5BA1E8E26CE00AD498D /* WCustomCalendarCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		919AC5BC1E8E27F600AD498D /* FSCalendar */ = {
+		91C123261ED966170087662C /* WMe */ = {
 			isa = PBXGroup;
 			children = (
-				919AC5BD1E8E27F600AD498D /* FSCalendar+Deprecated.m */,
-				919AC5BE1E8E27F600AD498D /* FSCalendar.h */,
-				919AC5BF1E8E27F600AD498D /* FSCalendar.m */,
-				919AC5C01E8E27F600AD498D /* FSCalendarAnimator.h */,
-				919AC5C11E8E27F600AD498D /* FSCalendarAnimator.m */,
-				919AC5C21E8E27F600AD498D /* FSCalendarAppearance.h */,
-				919AC5C31E8E27F600AD498D /* FSCalendarAppearance.m */,
-				919AC5C41E8E27F600AD498D /* FSCalendarCalculator.h */,
-				919AC5C51E8E27F600AD498D /* FSCalendarCalculator.m */,
-				919AC5C61E8E27F600AD498D /* FSCalendarCell.h */,
-				919AC5C71E8E27F600AD498D /* FSCalendarCell.m */,
-				919AC5C81E8E27F600AD498D /* FSCalendarCollectionView.h */,
-				919AC5C91E8E27F600AD498D /* FSCalendarCollectionView.m */,
-				919AC5CA1E8E27F600AD498D /* FSCalendarCollectionViewLayout.h */,
-				919AC5CB1E8E27F600AD498D /* FSCalendarCollectionViewLayout.m */,
-				919AC5CC1E8E27F600AD498D /* FSCalendarConstants.h */,
-				919AC5CD1E8E27F600AD498D /* FSCalendarConstants.m */,
-				919AC5CE1E8E27F600AD498D /* FSCalendarDelegateProxy.h */,
-				919AC5CF1E8E27F600AD498D /* FSCalendarDelegateProxy.m */,
-				919AC5D01E8E27F600AD498D /* FSCalendarDynamicHeader.h */,
-				919AC5D11E8E27F600AD498D /* FSCalendarExtensions.h */,
-				919AC5D21E8E27F600AD498D /* FSCalendarExtensions.m */,
-				919AC5D31E8E27F600AD498D /* FSCalendarHeaderView.h */,
-				919AC5D41E8E27F600AD498D /* FSCalendarHeaderView.m */,
-				919AC5D51E8E27F600AD498D /* FSCalendarScopeHandle.h */,
-				919AC5D61E8E27F600AD498D /* FSCalendarScopeHandle.m */,
-				919AC5D71E8E27F600AD498D /* FSCalendarStickyHeader.h */,
-				919AC5D81E8E27F600AD498D /* FSCalendarStickyHeader.m */,
-				919AC5D91E8E27F600AD498D /* FSCalendarWeekdayView.h */,
-				919AC5DA1E8E27F600AD498D /* FSCalendarWeekdayView.m */,
-				919AC5DB1E8E27F600AD498D /* Info.plist */,
+				91C123271ED966170087662C /* Controller */,
+				91C1232C1ED966170087662C /* Model */,
+				91C1232F1ED966170087662C /* View */,
 			);
-			path = FSCalendar;
+			path = WMe;
+			sourceTree = "<group>";
+		};
+		91C123271ED966170087662C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91C123281ED966170087662C /* WUserEditViewController.h */,
+				91C123291ED966170087662C /* WUserEditViewController.m */,
+				91C1232A1ED966170087662C /* WUserViewController.h */,
+				91C1232B1ED966170087662C /* WUserViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		91C1232C1ED966170087662C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91C1232D1ED966170087662C /* WUserModel.h */,
+				91C1232E1ED966170087662C /* WUserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91C1232F1ED966170087662C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91C123301ED966170087662C /* WUserHeadView.h */,
+				91C123311ED966170087662C /* WUserHeadView.m */,
+				91C123321ED966170087662C /* WUserTableViewCell.h */,
+				91C123331ED966170087662C /* WUserTableViewCell.m */,
+				91C123341ED966170087662C /* WUserTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91C123351ED966170087662C /* WMenstrual */ = {
+			isa = PBXGroup;
+			children = (
+				91C123361ED966170087662C /* Controller */,
+				91C123391ED966170087662C /* Model */,
+				91C1233E1ED966170087662C /* View */,
+			);
+			path = WMenstrual;
+			sourceTree = "<group>";
+		};
+		91C123361ED966170087662C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91C123371ED966170087662C /* WMenstruatlController.h */,
+				91C123381ED966170087662C /* WMenstruatlController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		91C123391ED966170087662C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				91C1233A1ED966170087662C /* WMenstrualModel.h */,
+				91C1233B1ED966170087662C /* WMenstrualModel.m */,
+				91C1233C1ED966170087662C /* WMenstrualPeriodAlgorithm.h */,
+				91C1233D1ED966170087662C /* WMenstrualPeriodAlgorithm.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91C1233E1ED966170087662C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91C1233F1ED966170087662C /* FlowAndPainTableViewCell.h */,
+				91C123401ED966170087662C /* FlowAndPainTableViewCell.m */,
+				91C123411ED966170087662C /* FlowAndPainTableViewCell.xib */,
+				91C123421ED966170087662C /* SetPeriodTableViewCell.h */,
+				91C123431ED966170087662C /* SetPeriodTableViewCell.m */,
+				91C123441ED966170087662C /* SetPeriodTableViewCell.xib */,
+				91C123451ED966170087662C /* WFllowersHeaderView.h */,
+				91C123461ED966170087662C /* WFllowersHeaderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		91C123471ED966170087662C /* WRecord */ = {
+			isa = PBXGroup;
+			children = (
+				91C123481ED966170087662C /* Controller */,
+				91C123551ED966170087662C /* Model */,
+				91C123561ED966170087662C /* View */,
+				91C123611ED966170087662C /* WHealthDataManager.h */,
+				91C123621ED966170087662C /* WHealthDataManager.m */,
+			);
+			path = WRecord;
+			sourceTree = "<group>";
+		};
+		91C123481ED966170087662C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				91C123491ED966170087662C /* WCalendarVC.h */,
+				91C1234A1ED966170087662C /* WCalendarVC.m */,
+				91C1234B1ED966170087662C /* WCalendarViewController.h */,
+				91C1234C1ED966170087662C /* WCalendarViewController.m */,
+				91C1234D1ED966170087662C /* WChildViewController.h */,
+				91C1234E1ED966170087662C /* WChildViewController.m */,
+				91C1234F1ED966170087662C /* WDecideViewController.h */,
+				91C123501ED966170087662C /* WDecideViewController.m */,
+				91C123511ED966170087662C /* WPickViewController.h */,
+				91C123521ED966170087662C /* WPickViewController.m */,
+				91C123531ED966170087662C /* WRecordViewController.h */,
+				91C123541ED966170087662C /* WRecordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		91C123551ED966170087662C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		91C123561ED966170087662C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				91C123571ED966170087662C /* WCalendarCollectionViewCell.h */,
+				91C123581ED966170087662C /* WCalendarCollectionViewCell.m */,
+				91C123591ED966170087662C /* WCalendarView.h */,
+				91C1235A1ED966170087662C /* WCalendarView.m */,
+				91C1235B1ED966170087662C /* WCustomCalendarCell.h */,
+				91C1235C1ED966170087662C /* WCustomCalendarCell.m */,
+				91C1235D1ED966170087662C /* WRecordCategoryView.h */,
+				91C1235E1ED966170087662C /* WRecordCategoryView.m */,
+				91C1235F1ED966170087662C /* WRecordCircleView.h */,
+				91C123601ED966170087662C /* WRecordCircleView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		E0F506E1ED9A316BC3592A9D /* Frameworks */ = {
@@ -616,12 +611,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				919AC5EB1E8E27F600AD498D /* Info.plist in Resources */,
-				919AC6011E8E321F00AD498D /* SetPeriodTableViewCell.xib in Resources */,
-				9127E2781E8A13D500706D23 /* Launch Screen.storyboard in Resources */,
-				91A82CBA1E8A88D80039228D /* Images.xcassets in Resources */,
-				919AC5FF1E8E321F00AD498D /* FlowAndPainTableViewCell.xib in Resources */,
-				917A43491E8BB1BD005C5D60 /* WUserTableViewCell.xib in Resources */,
+				91A7048A1ED9682300EDB507 /* Launch Screen.storyboard in Resources */,
+				91C1238A1ED966180087662C /* WUserTableViewCell.xib in Resources */,
+				91C123911ED966180087662C /* SetPeriodTableViewCell.xib in Resources */,
+				91C1236D1ED966170087662C /* Info.plist in Resources */,
+				91C1238F1ED966180087662C /* FlowAndPainTableViewCell.xib in Resources */,
+				91C1236C1ED966170087662C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,59 +675,60 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9127E28C1E8A3F4200706D23 /* NSDate+WExtension.m in Sources */,
-				9127E29C1E8A472300706D23 /* WChartFactory.m in Sources */,
-				9127E2991E8A43A700706D23 /* WHealthDataManager.m in Sources */,
-				9127E27E1E8A33A400706D23 /* WRecordCategoryView.m in Sources */,
-				919AC6071E8E574600AD498D /* WCalendarVC.m in Sources */,
-				919AC5B81E8E25E100AD498D /* WMenstruatlController.m in Sources */,
-				9127E2811E8A39DA00706D23 /* WRecordCircleView.m in Sources */,
-				919AC5E11E8E27F600AD498D /* FSCalendarCell.m in Sources */,
-				919AC5E01E8E27F600AD498D /* FSCalendarCalculator.m in Sources */,
-				919AC5F71E8E311900AD498D /* WMenstrualPeriodAlgorithm.m in Sources */,
-				91A82CC61E8B64C50039228D /* WTransitionAnimation.m in Sources */,
-				919AC6041E8E324300AD498D /* WCustomSwitch.m in Sources */,
-				919AC5DC1E8E27F600AD498D /* FSCalendar+Deprecated.m in Sources */,
-				9127E2761E8A118000706D23 /* WNavigationController.m in Sources */,
-				91A82CBD1E8B5E7D0039228D /* WCalendarView.m in Sources */,
-				919AC5EE1E8E28E500AD498D /* WPageControl.m in Sources */,
-				917A43481E8BB1BD005C5D60 /* WUserTableViewCell.m in Sources */,
-				9127E27B1E8A173100706D23 /* WRecordViewController.m in Sources */,
-				919AC5F41E8E301700AD498D /* WMenstrualModel.m in Sources */,
-				919AC5FE1E8E321F00AD498D /* FlowAndPainTableViewCell.m in Sources */,
-				919AC5DF1E8E27F600AD498D /* FSCalendarAppearance.m in Sources */,
-				9127E2691E8A0CF700706D23 /* WTabbarController.m in Sources */,
-				9127E2661E8A065200706D23 /* AppDelegate.m in Sources */,
-				9127E2A51E8A48AB00706D23 /* WLineChart.m in Sources */,
-				9127E2A21E8A480800706D23 /* WColumChart.m in Sources */,
-				917A433B1E8BA640005C5D60 /* WUserHeadView.m in Sources */,
-				919AC5E51E8E27F600AD498D /* FSCalendarDelegateProxy.m in Sources */,
-				919AC5E31E8E27F600AD498D /* FSCalendarCollectionViewLayout.m in Sources */,
-				919AC5E61E8E27F600AD498D /* FSCalendarExtensions.m in Sources */,
-				917A432F1E8B88A0005C5D60 /* WAnalazyViewController.m in Sources */,
-				9127E2891E8A3DEE00706D23 /* WBaseChart.m in Sources */,
-				919AC6001E8E321F00AD498D /* SetPeriodTableViewCell.m in Sources */,
-				9127E2961E8A426C00706D23 /* WUserModel.m in Sources */,
-				919AC5E91E8E27F600AD498D /* FSCalendarStickyHeader.m in Sources */,
-				917A43381E8BA59C005C5D60 /* WUserViewController.m in Sources */,
-				917A433E1E8BA9E8005C5D60 /* WButton.m in Sources */,
-				919AC5E71E8E27F600AD498D /* FSCalendarHeaderView.m in Sources */,
-				91A82CC31E8B64200039228D /* WCalendarViewController.m in Sources */,
-				919AC5E21E8E27F600AD498D /* FSCalendarCollectionView.m in Sources */,
-				9127E23C1E89FC1B00706D23 /* main.m in Sources */,
-				9127E2701E8A0EBC00706D23 /* UIColor+WExtension.m in Sources */,
-				917A43321E8B89EA005C5D60 /* WChildViewController.m in Sources */,
-				919AC5E41E8E27F600AD498D /* FSCalendarConstants.m in Sources */,
-				919AC5DD1E8E27F600AD498D /* FSCalendar.m in Sources */,
-				919AC5EA1E8E27F600AD498D /* FSCalendarWeekdayView.m in Sources */,
-				919AC5DE1E8E27F600AD498D /* FSCalendarAnimator.m in Sources */,
-				919AC5BB1E8E26CE00AD498D /* WCustomCalendarCell.m in Sources */,
-				917A43441E8BAFE3005C5D60 /* WPickViewController.m in Sources */,
-				919AC5E81E8E27F600AD498D /* FSCalendarScopeHandle.m in Sources */,
-				919AC5F11E8E2EFC00AD498D /* WFllowersHeaderView.m in Sources */,
-				917A43351E8B95E3005C5D60 /* WAllDataViewController.m in Sources */,
-				91A82CC01E8B62F70039228D /* WCalendarCollectionViewCell.m in Sources */,
-				917A43411E8BAF4B005C5D60 /* WUserEditViewController.m in Sources */,
+				91C123671ED966170087662C /* NSDate+WExtension.m in Sources */,
+				91C123801ED966170087662C /* FSCalendarStickyHeader.m in Sources */,
+				91C1237F1ED966170087662C /* FSCalendarScopeHandle.m in Sources */,
+				91C1236F1ED966170087662C /* WBaseChart.m in Sources */,
+				91C1237C1ED966170087662C /* FSCalendarDelegateProxy.m in Sources */,
+				91C123901ED966180087662C /* SetPeriodTableViewCell.m in Sources */,
+				91C123841ED966170087662C /* WAnalazyViewController.m in Sources */,
+				91C123981ED966180087662C /* WRecordViewController.m in Sources */,
+				91C123931ED966180087662C /* WCalendarVC.m in Sources */,
+				91C123771ED966170087662C /* FSCalendarCalculator.m in Sources */,
+				91C123811ED966170087662C /* FSCalendarWeekdayView.m in Sources */,
+				91C123651ED966170087662C /* WNavigationController.m in Sources */,
+				91C123721ED966170087662C /* WLineChart.m in Sources */,
+				91C123691ED966170087662C /* WButton.m in Sources */,
+				91C123861ED966180087662C /* WUserViewController.m in Sources */,
+				91C123781ED966170087662C /* FSCalendarCell.m in Sources */,
+				91C123791ED966170087662C /* FSCalendarCollectionView.m in Sources */,
+				91C1236B1ED966170087662C /* WPageControl.m in Sources */,
+				91C1237A1ED966170087662C /* FSCalendarCollectionViewLayout.m in Sources */,
+				91C1239C1ED966180087662C /* WRecordCategoryView.m in Sources */,
+				91C1239D1ED966180087662C /* WRecordCircleView.m in Sources */,
+				91C123851ED966170087662C /* WUserEditViewController.m in Sources */,
+				91C123661ED966170087662C /* WTabbarController.m in Sources */,
+				91C1237D1ED966170087662C /* FSCalendarExtensions.m in Sources */,
+				91C123881ED966180087662C /* WUserHeadView.m in Sources */,
+				91C123971ED966180087662C /* WPickViewController.m in Sources */,
+				91C1239A1ED966180087662C /* WCalendarView.m in Sources */,
+				91C123831ED966170087662C /* WAllDataViewController.m in Sources */,
+				91C123641ED966170087662C /* main.m in Sources */,
+				91C123701ED966170087662C /* WChartFactory.m in Sources */,
+				91C123951ED966180087662C /* WChildViewController.m in Sources */,
+				91C123631ED966170087662C /* AppDelegate.m in Sources */,
+				91C1237B1ED966170087662C /* FSCalendarConstants.m in Sources */,
+				91C1238C1ED966180087662C /* WMenstrualModel.m in Sources */,
+				91C123711ED966170087662C /* WColumChart.m in Sources */,
+				91C1238E1ED966180087662C /* FlowAndPainTableViewCell.m in Sources */,
+				91C123731ED966170087662C /* FSCalendar+Deprecated.m in Sources */,
+				91C123821ED966170087662C /* WTransitionAnimation.m in Sources */,
+				91C123941ED966180087662C /* WCalendarViewController.m in Sources */,
+				91C123891ED966180087662C /* WUserTableViewCell.m in Sources */,
+				91C123761ED966170087662C /* FSCalendarAppearance.m in Sources */,
+				91C1239E1ED966180087662C /* WHealthDataManager.m in Sources */,
+				91C123921ED966180087662C /* WFllowersHeaderView.m in Sources */,
+				91C1236A1ED966170087662C /* WCustomSwitch.m in Sources */,
+				91C123961ED966180087662C /* WDecideViewController.m in Sources */,
+				91C123991ED966180087662C /* WCalendarCollectionViewCell.m in Sources */,
+				91C1237E1ED966170087662C /* FSCalendarHeaderView.m in Sources */,
+				91C123871ED966180087662C /* WUserModel.m in Sources */,
+				91C1238D1ED966180087662C /* WMenstrualPeriodAlgorithm.m in Sources */,
+				91C1239B1ED966180087662C /* WCustomCalendarCell.m in Sources */,
+				91C123751ED966170087662C /* FSCalendarAnimator.m in Sources */,
+				91C1238B1ED966180087662C /* WMenstruatlController.m in Sources */,
+				91C123681ED966170087662C /* UIColor+WExtension.m in Sources */,
+				91C123741ED966170087662C /* FSCalendar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -832,14 +828,13 @@
 			baseConfigurationReference = E45D223DB5AE50AED17DBEC7 /* Pods-W.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = W/W.entitlements;
 				DEVELOPMENT_TEAM = ZV87992WEQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/W/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = W/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wang.erisw.WW;
+				PRODUCT_BUNDLE_IDENTIFIER = wang.erisw.W;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -849,14 +844,13 @@
 			baseConfigurationReference = A15CFD733427EA5DD38171A4 /* Pods-W.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = W/W.entitlements;
 				DEVELOPMENT_TEAM = ZV87992WEQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/W/Tools/PrefixHeader.pch";
 				INFOPLIST_FILE = W/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wang.erisw.WW;
+				PRODUCT_BUNDLE_IDENTIFIER = wang.erisw.W;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
