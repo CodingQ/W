@@ -21,32 +21,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ye2" translatesAutoresizingMaskIntoConstraints="NO" id="nUf-G9-2sF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" alpha="0.20000000000000001" contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="bqh-We-mTx">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.50291550159454346" green="0.35049009323120117" blue="0.2987835705280304" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <items/>
-                            </toolbar>
-                            <imageView userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ye2" translatesAutoresizingMaskIntoConstraints="NO" id="mpu-wX-etd">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ye2" translatesAutoresizingMaskIntoConstraints="NO" id="mpu-wX-etd">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="nUf-G9-2sF" secondAttribute="trailing" id="34Z-Yb-1qu"/>
-                            <constraint firstItem="bqh-We-mTx" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="Cc9-Gd-pEg"/>
                             <constraint firstItem="mpu-wX-etd" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="IuL-9i-ucO"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="nUf-G9-2sF" secondAttribute="bottom" id="M7h-3G-JwO"/>
-                            <constraint firstItem="nUf-G9-2sF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="UhS-jo-PFm"/>
-                            <constraint firstAttribute="trailing" secondItem="bqh-We-mTx" secondAttribute="trailing" id="Wwz-Pp-RH3"/>
                             <constraint firstItem="mpu-wX-etd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="lpJ-Gr-Dxv"/>
                             <constraint firstAttribute="trailing" secondItem="mpu-wX-etd" secondAttribute="trailing" id="mF3-X1-MEA"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="bqh-We-mTx" secondAttribute="bottom" id="nDY-ca-izY"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="mpu-wX-etd" secondAttribute="bottom" id="ndZ-1B-TTc"/>
-                            <constraint firstItem="bqh-We-mTx" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="wB6-JS-eHA"/>
-                            <constraint firstItem="nUf-G9-2sF" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="wTx-Ns-Ad8"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
