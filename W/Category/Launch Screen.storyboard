@@ -20,18 +20,7 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ye2" translatesAutoresizingMaskIntoConstraints="NO" id="mpu-wX-etd">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="mpu-wX-etd" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="IuL-9i-ucO"/>
-                            <constraint firstItem="mpu-wX-etd" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="lpJ-Gr-Dxv"/>
-                            <constraint firstAttribute="trailing" secondItem="mpu-wX-etd" secondAttribute="trailing" id="mF3-X1-MEA"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="mpu-wX-etd" secondAttribute="bottom" id="ndZ-1B-TTc"/>
-                        </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>
                 </viewController>
@@ -40,7 +29,4 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="ye2" width="512" height="640"/>
-    </resources>
 </document>
